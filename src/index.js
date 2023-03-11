@@ -1,8 +1,8 @@
-const port = process.env.PORT || 8080
-const server = require('./app');
+const express = require('express');
+const app = express();
 
-async function main() {
-    server.listen(port, () => console.log(`Servidor escuchando en el puerto ${port}`));
-}
-exports.developers = main();
+app.get('/getdevprojects', (req, res) => {
+  res,status(200).send('¡Hola desde tu API de Node.js en Firebase Hosting!');
+});
 
+exports.developers = functions.https.onRequest(app);
