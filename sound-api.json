@@ -1,0 +1,50 @@
+[
+  {
+    "idYt": "mZiusH3M8Uc",
+    "name": "DERRUMBE - CIRCULO VICIOSO",
+    "description": {
+      "en": "Rercording, Mixing and Mastering",
+      "es": "Grabación, Mezcla y Masterización"
+    },
+    "role": {
+      "en": "Recording Engineer, Productor",
+      "es": "Ingeniero de grabación, Productor"
+    }
+  },
+  {
+    "idYt": "A4QHsGibd34",
+    "name": "PARANOIA - PARANOIA EN PERRONEGRO",
+    "description": {
+      "en": "Live Rercording, Mixing and Mastering",
+      "es": "Grabación en vivo, Mezcla y Masterización"
+    },
+    "role": {
+      "en": "Recording Engineer, Productor",
+      "es": "Ingeniero de grabación, Productor"
+    }
+  },
+  {
+    "idYt": "4g2xdxzqwy8",
+    "name": "WORLD OF GWERH - IMPERISHABLE FLAME",
+    "description": {
+      "en": "Composition, Interpretation, Rercording, Mixing and Mastering",
+      "es": "Composición, Interpretación, Grabación, Mezcla y Masterización"
+    },
+    "role": {
+      "en": "Compositor, Interpreter, Recording Engineer, Productor",
+      "es": "Compositor, Intérprete, Ingeniero de grabación, Productor"
+    }
+  },
+  {
+    "idYt": "cxD9hSDd58g",
+    "name": "CANA BLUES - BLUES PESADO VALDIVIANO",
+    "description": {
+      "en": "Mixing and Mastering",
+      "es": "Mezcla y Masterización"
+    },
+    "role": {
+      "en": "Productor",
+      "es": "Productor"
+    }
+  }
+]
