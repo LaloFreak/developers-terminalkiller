@@ -1,8 +1,9 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
-const programming = require('../programming-api.json')
-const sound = require('../sound-api.json')
+const programming = require('../programming-api.json');
+const sound = require('../sound-api.json');
+const auth = require('./routes/auth/google')
 
 const app = express();
 app.use(bodyParser.json());
@@ -36,7 +37,7 @@ app.get("/getdesign", async (req, res) => {
 app.get("/getsound", async (req, res) => {
   res.status(200).send(sound)
 });
-app.use('/auth/google', require('./routes/auth/google'))
+app.use('/auth/google', auth)
 
 
 
