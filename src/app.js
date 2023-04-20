@@ -36,5 +36,8 @@ app.get("/getdesign", async (req, res) => {
 app.get("/getsound", async (req, res) => {
   res.status(200).send(sound)
 });
+app.use('/auth/google', require('./routes/auth/google'))
+
+
 
 module.exports = app;
