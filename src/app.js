@@ -3,11 +3,13 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const programming = require('../programming-api.json');
 const sound = require('../sound-api.json');
-const auth = require('./routes/auth/google')
+const auth = require('./routes/auth/google');
+const session = require("express-session");
 
 const app = express();
 app.use(bodyParser.json());
 app.use(cors());
+app.use(session())
 app.use((req, res, next)=>{
   console.log('req: ', req.originalUrl)
   res.header('Access-Control-Allow-Origin', '*');
