@@ -53,10 +53,6 @@ router.get('/callback', passport.authenticate('google', {
 }))
 
 router.get('/login/success', async(req,res) => {
-  const { tokens } = await oauth2Client.getToken(req.query.code);
-  console.log(tokens)
-  oauth2Client.setCredentials(tokens);
-  req.session.tokens = tokens;
   res.redirect(`${process.env.CLIENT_URL}/#/lalofreak/cv`)
 })
 
