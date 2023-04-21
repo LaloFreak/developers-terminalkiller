@@ -53,10 +53,8 @@ router.get('/callback', passport.authenticate('google', {
 }))
 
 router.get('/login/success', (req,res) => {
-  if(req.user){
-    res.json(user)
+    console.log('success!')
     res.redirect('http://developers.terminalkiller.site/lalofreak/cv')
-  }
 })
 
 router.get('/logout', (req,res)=>{
