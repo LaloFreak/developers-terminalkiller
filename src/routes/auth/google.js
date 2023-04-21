@@ -55,6 +55,7 @@ router.get('/callback', passport.authenticate('google', {
 router.get('/login/success', (req,res) => {
   if(req.user){
     res.json(user)
+    res.redirect('http://developers.terminalkiller.site/lalofreak/cv')
   }
 })
 
