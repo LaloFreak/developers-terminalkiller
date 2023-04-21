@@ -57,7 +57,7 @@ router.get('/login/success', async(req,res) => {
   console.log(tokens)
   oauth2Client.setCredentials(tokens);
   req.session.tokens = tokens;
-  res.redirect(`${process.env.CLIENT_URL}`)
+  res.redirect(`${process.env.CLIENT_URL}/#/lalofreak/cv`)
 })
 
 router.get('/login/failure', async(req,res) => {
