@@ -48,13 +48,21 @@ passport.deserializeUser((user, done)=>{
 router.get('/', passport.authenticate('google', {state: '200'}))
 
 router.get('/callback', passport.authenticate('google', {
-  successRedirect: `${process.env.CLIENT_URL}`,
-  failureRedirect: '/auth/login/failure'
+  successRedirect: '/auth/google/login/success',
+  failureRedirect: '/auth/google/login/failure'
 }))
 
-router.get('/login/success', (req,res) => {
-    console.log('success!')
-    res.redirect('http://developers.terminalkiller.site/lalofreak/cv')
+router.get('/login/success', async(req,res) => {
+  const { tokens } = await oauth2Client.getToken(req.query.code);
+  console.log(tokens)
+  oauth2Client.setCredentials(tokens);
+  req.session.tokens = tokens;
+  res.redirect(`${process.env.CLIENT_URL}`)
+})
+
+router.get('/login/failure', async(req,res) => {
+  console.log(tokens)
+  res.redirect(`${process.env.CLIENT_URL}`)
 })
 
 router.get('/logout', (req,res)=>{

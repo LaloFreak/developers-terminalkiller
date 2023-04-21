@@ -9,7 +9,11 @@ const session = require("express-session");
 const app = express();
 app.use(bodyParser.json());
 app.use(cors());
-app.use(session())
+app.use(session({
+  secret: 'TU_CLAVE_SECRETA',
+  resave: false,
+  saveUninitialized: true
+}));
 app.use((req, res, next)=>{
   console.log('req: ', req.originalUrl)
   res.header('Access-Control-Allow-Origin', '*');
