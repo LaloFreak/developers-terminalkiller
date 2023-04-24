@@ -53,11 +53,10 @@ router.get('/callback', passport.authenticate('google', {
 }))
 
 router.get('/login/success', async(req,res) => {
-  res.redirect(`${process.env.CLIENT_URL}/#/lalofreak/cv`)
+  res.redirect(`${process.env.CLIENT_URL}/#/lalofreak/download/cv`)
 })
 
 router.get('/login/failure', async(req,res) => {
-  console.log(tokens)
   res.redirect(`${process.env.CLIENT_URL}`)
 })
 
