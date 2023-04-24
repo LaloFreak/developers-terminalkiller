@@ -53,7 +53,30 @@ router.get('/callback', passport.authenticate('google', {
 }))
 
 router.get('/login/success', async(req,res) => {
-  res.redirect(`${process.env.CLIENT_URL}/#/lalofreak/download/cv`)
+  const accessToken = req.user.accessToken;
+  const existingUser = await User.findOne({
+      where: {
+          email: req.user.emails[0].value,
+      }
+  });
+
+  if (existingUser) {
+      await User.update(
+          { token: req.user.accessToken },
+          { where: { email: req.user.emails[0].value, } }
+      )
+      return res.redirect(`${process.env.CLIENT_URL}/#/auth?token=${accessToken}`)
+  }
+  await User.create({
+    alias: req.user.name.givenName,
+    email: req.user.emails[0].value,
+    googleId: req.user.id,
+    method: 'google',
+    isVerified: true,
+    token: req.user.accessToken,
+    googlePic: req.user.photos[0].value,
+  });
+  return res.redirect(`${process.env.CLIENT_URL}/#/auth?token=${accessToken}`)
 })
 
 router.get('/login/failure', async(req,res) => {
