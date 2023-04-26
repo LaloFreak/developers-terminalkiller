@@ -2,7 +2,12 @@ require("dotenv").config()
 const express = require('express')
 const router = express.Router()
 const passport = require("passport");
+const { User } = require("../../models/User");
 const GoogleStrategy = require("passport-google-oauth20").Strategy;
+
+
+router.use(express.json())
+router.use(express.urlencoded({ extended: true }));
 
 passport.use(
   new GoogleStrategy(
@@ -12,9 +17,9 @@ passport.use(
       callbackURL: `${process.env.API_URL}/auth/google/callback`,   
       scope: [
         'email',
-        'profile', 
-        'https://www.googleapis.com/auth/userinfo.email', 
-        'https://www.googleapis.com/auth/userinfo.profile', 
+        'profile',
+        'https://www.googleapis.com/auth/userinfo.email',
+        'https://www.googleapis.com/auth/userinfo.profile',
         'https://www.googleapis.com/auth/plus.me'
       ],
       accessType: 'offline'
@@ -27,7 +32,6 @@ passport.use(
           photo: profile.photos[0].value,
           accessToken: accessToken,
         }
-        console.log(userData)
         return done(null, userData)
         } catch (err) {
           return done(err)
@@ -53,30 +57,32 @@ router.get('/callback', passport.authenticate('google', {
 }))
 
 router.get('/login/success', async(req,res) => {
-  const accessToken = req.user.accessToken;
+  const user = req.session.passport.user
+  console.log('la reqqqq', user)
+
+  const accessToken = user.accessToken;
   const existingUser = await User.findOne({
       where: {
-          email: req.user.emails[0].value,
+          email: user.email,
       }
   });
 
   if (existingUser) {
       await User.update(
-          { token: req.user.accessToken },
-          { where: { email: req.user.emails[0].value, } }
+          { token: user.accessToken },
+          { where: { email: user.email, } }
       )
-      return res.redirect(`${process.env.CLIENT_URL}/#/auth?token=${accessToken}`)
+      return res.redirect(`${process.env.CLIENT_URL}/#/lalofreak/auth?token=${accessToken}`)
   }
   await User.create({
-    alias: req.user.name.givenName,
-    email: req.user.emails[0].value,
-    googleId: req.user.id,
+    alias: user.name,
+    email: user.email,
     method: 'google',
     isVerified: true,
-    token: req.user.accessToken,
-    googlePic: req.user.photos[0].value,
+    token: user.accessToken,
+    googlePic: user.photo,
   });
-  return res.redirect(`${process.env.CLIENT_URL}/#/auth?token=${accessToken}`)
+  return res.redirect(`${process.env.CLIENT_URL}/#/lalofreak/auth?token=${accessToken}`)
 })
 
 router.get('/login/failure', async(req,res) => {

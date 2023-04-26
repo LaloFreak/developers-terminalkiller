@@ -1,6 +1,6 @@
-# fly.toml file generated for developers-terminalkiller on 2023-04-10T17:21:57-04:00
+# fly.toml file generated for developerkiller on 2023-04-24T19:39:28-04:00
 
-app = "developers-terminalkiller"
+app = "developerkiller"
 kill_signal = "SIGINT"
 kill_timeout = 5
 primary_region = "scl"

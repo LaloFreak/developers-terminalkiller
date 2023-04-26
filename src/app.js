@@ -5,6 +5,7 @@ const programming = require('../programming-api.json');
 const sound = require('../sound-api.json');
 const auth = require('./routes/auth/google');
 const session = require("express-session");
+const { loginUserWithGoogle } = require("./controllers/users");
 
 const app = express();
 app.use(bodyParser.json());
@@ -45,6 +46,13 @@ app.get("/getsound", async (req, res) => {
 });
 app.use('/auth/google', auth)
 
-
+app.post("/users/loginwithgoogle", async (req, res) => {
+  try {
+    const response = await loginUserWithGoogle(req, res)
+    res.json({ msg: response });
+  } catch (error) {
+    res.status(400).json({ error: error }); 
+  }
+});
 
 module.exports = app;
