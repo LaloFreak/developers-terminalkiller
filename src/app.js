@@ -6,6 +6,7 @@ const sound = require('../sound-api.json');
 const auth = require('./routes/auth/google');
 const session = require("express-session");
 const { loginUserWithGoogle } = require("./controllers/users");
+const nodemailer = require("nodemailer");
 
 const app = express();
 app.use(bodyParser.json());
@@ -53,6 +54,43 @@ app.post("/users/loginwithgoogle", async (req, res) => {
   } catch (error) {
     res.status(400).json({ error: error }); 
   }
+});
+
+
+const transporter = nodemailer.createTransport({
+  service: "Gmail",
+  auth: {
+    type: "OAuth2",
+    user: process.env.EMAIL_USER,
+    clientId: process.env.OAUTH_CLIENT_ID,
+    clientSecret: process.env.OAUTH_CLIENT_SECRET,
+    refreshToken: process.env.OAUTH_REFRESH_TOKEN,
+    accessToken: process.env.OAUTH_ACCESS_TOKEN,
+  },
+});
+
+const sendEmail = (formData) => {
+  const { name, email, message } = formData;
+  const mailOptions = {
+    from: email,
+    to: process.env.EMAIL_USER,
+    subject: `New message from ${name} (${email})`,
+    text: message,
+  };
+  return transporter.sendMail(mailOptions);
+};
+
+
+app.post("/sendemail", (req, res) => {
+  console.log('bodyyy', req.body)
+  sendEmail(req.body)
+  .then(() => {
+    res.status(200).json({ message: "Email sent successfully." });
+  })
+  .catch((error) => {
+  console.error(error);
+    res.status(500).json({ message: "Failed to send email." });
+  });
 });
 
 module.exports = app;
