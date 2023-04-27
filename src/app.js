@@ -4,6 +4,8 @@ const cors = require("cors");
 const programming = require('../programming-api.json');
 const sound = require('../sound-api.json');
 const auth = require('./routes/auth/google');
+const mail = require('./routes/auth/mail');
+
 const session = require("express-session");
 const { loginUserWithGoogle } = require("./controllers/users");
 const nodemailer = require("nodemailer");
@@ -46,6 +48,8 @@ app.get("/getsound", async (req, res) => {
   res.status(200).send(sound)
 });
 app.use('/auth/google', auth)
+
+app.use('/mail/google', mail)
 
 app.post("/users/loginwithgoogle", async (req, res) => {
   try {
