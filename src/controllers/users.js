@@ -2,7 +2,6 @@ const { User } = require("../models/User");
 
 const loginUserWithGoogle = async (req, res) => {
     const { accessToken } = req.body
-    console.log('la accessss', accessToken)
     try {
       const user = await User.findAll({
         where: {

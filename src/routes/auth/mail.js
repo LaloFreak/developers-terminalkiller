@@ -9,12 +9,12 @@ const GoogleStrategy = require("passport-google-oauth20").Strategy;
 router.use(express.json())
 router.use(express.urlencoded({ extended: true }));
 
-passport.use(
+passport.use('google-mail',
   new GoogleStrategy(
     {
       clientID: process.env.GOOGLE_CLIENT_ID,
       clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-      callbackURL: `${process.env.API_URL}/auth/google/callback`,   
+      callbackURL: `${process.env.API_URL}/mail/google/callback`,   
       scope: [
         'email',
         'profile',
@@ -49,22 +49,23 @@ passport.deserializeUser((user, done)=>{
     done(null, user)
 });
 
-router.get('/', passport.authenticate('google', {state: '200'}))
+router.get('/', passport.authenticate('google-mail', {state: '200'}))
 
-router.get('/callback', passport.authenticate('google', {
-  successRedirect: '/mail/google/login/success',
-  failureRedirect: '/mail/google/login/failure'
+router.get('/callback', passport.authenticate('google-mail', {
+    successRedirect: '/mail/google/login/success',
+    failureRedirect: '/mail/google/login/failure'
 }))
 
 router.get('/login/success', async(req,res) => {
-  const user = req.session.passport.user
-
-  const accessToken = user.accessToken;
-  const existingUser = await User.findOne({
-      where: {
-          email: user.email,
-      }
-  });
+    const user = req.session.passport.user
+    console.log('User: ', user)
+        
+    const accessToken = user.accessToken;
+    const existingUser = await User.findOne({
+        where: {
+            email: user.email,
+        }
+    });
 
   if (existingUser) {
       await User.update(

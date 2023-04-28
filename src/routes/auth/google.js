@@ -9,7 +9,7 @@ const GoogleStrategy = require("passport-google-oauth20").Strategy;
 router.use(express.json())
 router.use(express.urlencoded({ extended: true }));
 
-passport.use(
+passport.use('google',
   new GoogleStrategy(
     {
       clientID: process.env.GOOGLE_CLIENT_ID,
