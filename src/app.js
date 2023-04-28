@@ -86,7 +86,6 @@ const sendEmail = (formData) => {
 
 
 app.post("/sendemail", (req, res) => {
-  console.log('bodyyy', req.body)
   sendEmail(req.body)
   .then(() => {
     res.status(200).json({ message: "Email sent successfully." });

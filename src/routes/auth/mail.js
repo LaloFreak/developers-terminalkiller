@@ -58,7 +58,6 @@ router.get('/callback', passport.authenticate('google-mail', {
 
 router.get('/login/success', async(req,res) => {
     const user = req.session.passport.user
-    console.log('User: ', user)
         
     const accessToken = user.accessToken;
     const existingUser = await User.findOne({
