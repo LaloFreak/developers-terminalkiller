@@ -1,5 +1,18 @@
 [
   {
+    "idYt": "4g2xdxzqwy8",
+    "name": "WORLD OF GWERH - IMPERISHABLE FLAME",
+    "description": {
+      "en": "Composition, Interpretation, Rercording, Mixing and Mastering",
+      "es": "Composición, Interpretación, Grabación, Mezcla y Masterización"
+    },
+    "role": {
+      "en": "Compositor, Interpreter, Recording Engineer, Productor",
+      "es": "Compositor, Intérprete, Ingeniero de grabación, Productor"
+    },
+    "year": "2023"
+  },
+  {
     "idYt": "mZiusH3M8Uc",
     "name": "DERRUMBE - CIRCULO VICIOSO",
     "description": {
@@ -9,7 +22,8 @@
     "role": {
       "en": "Recording Engineer, Productor",
       "es": "Ingeniero de grabación, Productor"
-    }
+    },
+    "year": "2022"
   },
   {
     "idYt": "A4QHsGibd34",
@@ -21,19 +35,8 @@
     "role": {
       "en": "Recording Engineer, Productor",
       "es": "Ingeniero de grabación, Productor"
-    }
-  },
-  {
-    "idYt": "4g2xdxzqwy8",
-    "name": "WORLD OF GWERH - IMPERISHABLE FLAME",
-    "description": {
-      "en": "Composition, Interpretation, Rercording, Mixing and Mastering",
-      "es": "Composición, Interpretación, Grabación, Mezcla y Masterización"
     },
-    "role": {
-      "en": "Compositor, Interpreter, Recording Engineer, Productor",
-      "es": "Compositor, Intérprete, Ingeniero de grabación, Productor"
-    }
+    "year": "2021"
   },
   {
     "idYt": "cxD9hSDd58g",
@@ -45,6 +48,7 @@
     "role": {
       "en": "Productor",
       "es": "Productor"
-    }
+    },
+    "year": "2019"
   }
 ]
