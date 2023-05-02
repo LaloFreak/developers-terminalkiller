@@ -18,6 +18,22 @@
         }
       },
       {
+        "href": "http://worldofgwerh.terminalkiller.site",
+        "name": "WORLD OF GWERH",
+        "description": {
+          "en": "Art & Entertainment",
+          "es": "Arte y Entretenimiento"
+        },
+        "technologies": {
+          "en": "NextJs, NodeJs",
+          "es": "NextJs, NodeJs"
+        },
+        "role": {
+          "en": "FullStack Developer, UI/UX Designer",
+          "es": "Desarrollador FullStack, Diseñador UI/UX"
+        }
+      },
+      {
         "href": "https://merch.laruinarecords.cl",
         "name": "LA RUINA MERCH",
         "description": {
@@ -39,22 +55,6 @@
         "description": {
           "en": "Sound Services",
           "es": "Servicios de Sonido"
-        },
-        "technologies": {
-          "en": "NextJs, NodeJs",
-          "es": "NextJs, NodeJs"
-        },
-        "role": {
-          "en": "FullStack Developer, UI/UX Designer",
-          "es": "Desarrollador FullStack, Diseñador UI/UX"
-        }
-      },
-      {
-        "href": "http://worldofgwerh.terminalkiller.site",
-        "name": "WORLD OF GWERH",
-        "description": {
-          "en": "Art & Entertainment",
-          "es": "Arte y Entretenimiento"
         },
         "technologies": {
           "en": "NextJs, NodeJs",
