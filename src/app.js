@@ -30,28 +30,28 @@ app.get("/home", (req, res) => {
   res.send("¡Hola, mundo!");
 });
 
-app.get("lalofreak/users/:id", (req, res) => {
+app.get("/lalofreak/users/:id", (req, res) => {
   const id = req.params.id;
   // ... Lógica para obtener usuario con ID "id" ...
   res.send(user);
 });
 
-app.get("lalofreak/getdevelop", async (req, res) => {
+app.get("/lalofreak/getdevelop", async (req, res) => {
   res.status(200).send(develop)
 });
 
-app.get("lalofreak/getdesign", async (req, res) => {
+app.get("/lalofreak/getdesign", async (req, res) => {
   res.status(200).send(design)
 });
 
-app.get("lalofreak/getsound", async (req, res) => {
+app.get("/lalofreak/getsound", async (req, res) => {
   res.status(200).send(sound)
 });
-app.use('lalofreak/auth/google', auth)
+app.use('/lalofreak/auth/google', auth)
 
-app.use('lalofreak/mail/google', mail)
+app.use('/lalofreak/mail/google', mail)
 
-app.post("lalofreak/users/loginwithgoogle", async (req, res) => {
+app.post("/lalofreak/users/loginwithgoogle", async (req, res) => {
   try {
     const response = await loginUserWithGoogle(req, res)
     res.json({ msg: response });
@@ -85,7 +85,7 @@ const sendEmail = (formData) => {
 };
 
 
-app.post("lalofreak/sendemail", (req, res) => {
+app.post("/lalofreak/sendemail", (req, res) => {
   sendEmail(req.body)
   .then(() => {
     res.status(200).json({ message: "Email sent successfully." });
