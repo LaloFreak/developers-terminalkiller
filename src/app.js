@@ -1,8 +1,8 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
-const programming = require('../programming-api.json');
-const sound = require('../sound-api.json');
+const developer = require('../developers/LaloFreak/developer-api.json');
+const sound = require('../developers/LaloFreak/sound-api.json');
 const auth = require('./routes/auth/google');
 const mail = require('./routes/auth/mail');
 
@@ -37,7 +37,7 @@ app.get("/users/:id", (req, res) => {
 });
 
 app.get("/getprogramming", async (req, res) => {
-  res.status(200).send(programming)
+  res.status(200).send(developer)
 });
 
 app.get("/getdesign", async (req, res) => {
