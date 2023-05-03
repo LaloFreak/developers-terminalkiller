@@ -32,7 +32,6 @@ app.get("/home", (req, res) => {
 
 app.get("/lalofreak/users/:id", (req, res) => {
   const id = req.params.id;
-  // ... Lógica para obtener usuario con ID "id" ...
   res.send(user);
 });
 
