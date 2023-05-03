@@ -52,8 +52,8 @@ passport.deserializeUser((user, done)=>{
 router.get('/', passport.authenticate('google', {state: '200'}))
 
 router.get('/callback', passport.authenticate('google', {
-  successRedirect: '/auth/google/login/success',
-  failureRedirect: '/auth/google/login/failure'
+  successRedirect: '/lalofreak/auth/google/login/success',
+  failureRedirect: '/lalofreak/auth/google/login/failure'
 }))
 
 router.get('/login/success', async(req,res) => {

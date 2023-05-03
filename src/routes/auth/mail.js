@@ -52,8 +52,8 @@ passport.deserializeUser((user, done)=>{
 router.get('/', passport.authenticate('google-mail', {state: '200'}))
 
 router.get('/callback', passport.authenticate('google-mail', {
-    successRedirect: '/mail/google/login/success',
-    failureRedirect: '/mail/google/login/failure'
+    successRedirect: '/lalofreak/mail/google/login/success',
+    failureRedirect: '/lalofreak/mail/google/login/failure'
 }))
 
 router.get('/login/success', async(req,res) => {
