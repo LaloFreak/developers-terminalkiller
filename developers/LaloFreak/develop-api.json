@@ -180,5 +180,43 @@
         "idImg": ""
       }
     ]
+  },
+  {
+    "software": [
+      {
+        "href": "https://github.com/LaloFreak/Traffic-Neural-Network",
+        "name": "TRAFFIC NEURAL NETWORK",
+        "description": {
+          "en": "Neural Network Training (Artificial Intelligence)",
+          "es": "Entrenamiento de Redes Neuronales (Inteligencia Artificial)"
+        },
+        "technologies": {
+          "en": "Python, TensorFlow",
+          "es": "Python, TensorFlow"
+        },
+        "role": {
+          "en": "Developer",
+          "es": "Desarrollador"
+        },
+        "idImg": "10a979JZ-76zmCbQQKaH8kJkK8xbUKgIN"
+      },
+      {
+        "href": "https://github.com/LaloFreak/ArmaggeDroneSoftware",
+        "name": "ARMAGGEDRONE",
+        "description": {
+          "en": "Software Smart Drone (Artificial Intelligence)",
+          "es": "Software Smart Drone (Inteligencia Artificial)"
+        },
+        "technologies": {
+          "en": "Python, AI",
+          "es": "Python, IA"
+        },
+        "role": {
+          "en": "Developer",
+          "es": "Desarrollador"
+        },
+        "idImg": ""
+      }
+    ]
   }
 ]
