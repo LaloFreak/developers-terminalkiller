@@ -15,7 +15,8 @@
         "role": {
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
-        }
+        },
+        "idImg": "1WyQV_2EN83yPOC0dUQgFhPb8bzj-YxW_"
       },
       {
         "href": "http://worldofgwerh.terminalkiller.site",
@@ -25,13 +26,14 @@
           "es": "Arte y Entretenimiento"
         },
         "technologies": {
-          "en": "NextJs, NodeJs",
-          "es": "NextJs, NodeJs"
+          "en": "ReactJs, NodeJs",
+          "es": "ReactJs, NodeJs"
         },
         "role": {
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
-        }
+        },
+        "idImg": "1bToH3PblA0YjvVeeWN_L4u7HRg891XYI"
       },
       {
         "href": "https://merch.laruinarecords.cl",
@@ -47,7 +49,8 @@
         "role": {
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
-        }
+        },
+        "idImg": ""
       },
       {
         "href": "https://laruinarecords.cl",
@@ -63,7 +66,8 @@
         "role": {
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
-        }
+        },
+        "idImg": ""
       },
       {
         "href": "http://projects.terminalkiller.site",
@@ -79,7 +83,8 @@
         "role": {
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
-        }
+        },
+        "idImg": "10M64Xj6SMfupn6V83yw3CYFQ8BFMfCrw"
       }  
     ]
   },
@@ -99,7 +104,8 @@
         "role": {
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
-        }
+        },
+        "idImg": ""
       },
       {
         "href": "http://worldofgwerh.terminalkiller.site/#/adventures/gwerh-the-bard/download/desktop",
@@ -115,7 +121,8 @@
         "role": {
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
-        }
+        },
+        "idImg": ""
       }
     ]
   },
@@ -135,7 +142,8 @@
         "role": {
           "en": "FullStack Developer",
           "es": "Desarrollador FullStack"
-        }
+        },
+        "idImg": ""
       },
       {
         "href": "",
@@ -151,7 +159,8 @@
         "role": {
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
-        }
+        },
+        "idImg": ""
       },
       {
         "href": "http://worldofgwerh.terminalkiller.site/#/adventures/gwerh-the-bard/download/mobile",
@@ -167,7 +176,8 @@
         "role": {
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
-        }
+        },
+        "idImg": ""
       }
     ]
   }
