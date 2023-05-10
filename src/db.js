@@ -1,7 +1,7 @@
 const { Sequelize } = require("sequelize");
 
 const sequelize = new Sequelize(
-   "postgres://postgres:DwKQk4Is3QUrriV@developerkiller-db.flycast:5432",
+    process.env.POSTGRES_STRING,
   {
     logging: false,
     native: false,
