@@ -2,6 +2,23 @@
   {
     "web": [
       {
+        "href": "http://ia-testing.terminalkiller.site",
+        "name": "ARTIFICIAL INTELLIGENCE APP - TESTING",
+        "description": {
+          "en": "Tests and training for my first AI Application",
+          "es": "Pruebas y entrenamiento para mi primera Aplicación IA"
+        },
+        "technologies": {
+          "en": "ReactJs, NodeJs, Python, TensorFlowJs",
+          "es": "ReactJs, NodeJs, Python, TensorFlowJs"
+        },
+        "role": {
+          "en": "IA Training, Machine Learning, FullStack Developer, UI/UX Designer",
+          "es": "Entrenamiento IA, Machine Learning, Desarrollador FullStack, Diseñador UI/UX"
+        },
+        "idImg": "10cQSHYR-JMfMMXBETucRpuw19rnyaCQ4"
+      },
+      {
         "href": "https://tv.laruinarecords.cl",
         "name": "LA RUINA TV",
         "description": {
