@@ -87,11 +87,11 @@ const sendEmail = (formData) => {
 app.post("/lalofreak/sendemail", (req, res) => {
   sendEmail(req.body)
   .then(() => {
-    res.status(200).json({ message: "Email sent successfully." });
+    res.status(200).json({ message:{ EN: "Email sent successfully.", ES: "Email enviado exitosamente" } });
   })
   .catch((error) => {
   console.error(error);
-    res.status(500).json({ message: "Failed to send email." });
+    res.status(500).json({ message: { EN: "Failed to send email.", ES: "Error al enviar email" } });
   });
 });
 
