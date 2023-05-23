@@ -2,7 +2,7 @@ const router = require('express').Router();
 const User = require('../models/User');
 const programming = require('../../programming-api.json')
 
-router.get("getprogramming", async (req, res) => {
+router.get("getdevelop", async (req, res) => {
     res.status(200).send(programming)
 });
 

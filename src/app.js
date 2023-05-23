@@ -1,8 +1,8 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
-const programming = require('../programming-api.json');
-const sound = require('../sound-api.json');
+const develop = require('../developers/LaloFreak/develop-api.json');
+const sound = require('../developers/LaloFreak/sound-api.json');
 const auth = require('./routes/auth/google');
 const mail = require('./routes/auth/mail');
 
@@ -30,28 +30,27 @@ app.get("/home", (req, res) => {
   res.send("¡Hola, mundo!");
 });
 
-app.get("/users/:id", (req, res) => {
+app.get("/lalofreak/users/:id", (req, res) => {
   const id = req.params.id;
-  // ... Lógica para obtener usuario con ID "id" ...
   res.send(user);
 });
 
-app.get("/getprogramming", async (req, res) => {
-  res.status(200).send(programming)
+app.get("/lalofreak/getdevelop", async (req, res) => {
+  res.status(200).send(develop)
 });
 
-app.get("/getdesign", async (req, res) => {
+app.get("/lalofreak/getdesign", async (req, res) => {
   res.status(200).send(design)
 });
 
-app.get("/getsound", async (req, res) => {
+app.get("/lalofreak/getsound", async (req, res) => {
   res.status(200).send(sound)
 });
-app.use('/auth/google', auth)
+app.use('/lalofreak/auth/google', auth)
 
-app.use('/mail/google', mail)
+app.use('/lalofreak/mail/google', mail)
 
-app.post("/users/loginwithgoogle", async (req, res) => {
+app.post("/lalofreak/users/loginwithgoogle", async (req, res) => {
   try {
     const response = await loginUserWithGoogle(req, res)
     res.json({ msg: response });
@@ -85,14 +84,14 @@ const sendEmail = (formData) => {
 };
 
 
-app.post("/sendemail", (req, res) => {
+app.post("/lalofreak/sendemail", (req, res) => {
   sendEmail(req.body)
   .then(() => {
-    res.status(200).json({ message: "Email sent successfully." });
+    res.status(200).json({ message:{ EN: "Email sent successfully.", ES: "Email enviado exitosamente" } });
   })
   .catch((error) => {
   console.error(error);
-    res.status(500).json({ message: "Failed to send email." });
+    res.status(500).json({ message: { EN: "Failed to send email.", ES: "Error al enviar email" } });
   });
 });
 

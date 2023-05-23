@@ -52,8 +52,8 @@ passport.deserializeUser((user, done)=>{
 router.get('/', passport.authenticate('google-mail', {state: '200'}))
 
 router.get('/callback', passport.authenticate('google-mail', {
-    successRedirect: '/mail/google/login/success',
-    failureRedirect: '/mail/google/login/failure'
+    successRedirect: '/lalofreak/mail/google/login/success',
+    failureRedirect: '/lalofreak/mail/google/login/failure'
 }))
 
 router.get('/login/success', async(req,res) => {
@@ -71,7 +71,7 @@ router.get('/login/success', async(req,res) => {
           { token: user.accessToken },
           { where: { email: user.email, } }
       )
-      return res.redirect(`${process.env.CLIENT_URL}/#/lalofreak/mail/auth?token=${accessToken}`)
+      return res.redirect(`${process.env.CLIENT_URL_LALOFREAK}/#/mail/auth?token=${accessToken}`)
   }
   await User.create({
     alias: user.name,
@@ -81,11 +81,11 @@ router.get('/login/success', async(req,res) => {
     token: user.accessToken,
     googlePic: user.photo,
   });
-  return res.redirect(`${process.env.CLIENT_URL}/#/lalofreak/mail/auth?token=${accessToken}`)
+  return res.redirect(`${process.env.CLIENT_URL_LALOFREAK}/#/mail/auth?token=${accessToken}`)
 })
 
 router.get('/login/failure', async(req,res) => {
-  res.redirect(`${process.env.CLIENT_URL}`)
+  res.redirect(`${process.env.CLIENT_URL_LALOFREAK}`)
 })
 
 router.get('/logout', (req,res)=>{

@@ -2,6 +2,23 @@
   {
     "web": [
       {
+        "href": "https://terminalkiller.site/#/ai-testing",
+        "name": "ARTIFICIAL INTELLIGENCE APP - TESTING",
+        "description": {
+          "en": "Tests and training for my first AI Application",
+          "es": "Pruebas y entrenamiento para mi primera Aplicación IA"
+        },
+        "technologies": {
+          "en": "ReactJs, NodeJs, Python, TensorFlowJs",
+          "es": "ReactJs, NodeJs, Python, TensorFlowJs"
+        },
+        "role": {
+          "en": "IA Training, Machine Learning, FullStack Developer, UI/UX Designer",
+          "es": "Entrenamiento IA, Machine Learning, Desarrollador FullStack, Diseñador UI/UX"
+        },
+        "idImg": "10cQSHYR-JMfMMXBETucRpuw19rnyaCQ4"
+      },
+      {
         "href": "https://tv.laruinarecords.cl",
         "name": "LA RUINA TV",
         "description": {
@@ -15,7 +32,8 @@
         "role": {
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
-        }
+        },
+        "idImg": "1WyQV_2EN83yPOC0dUQgFhPb8bzj-YxW_"
       },
       {
         "href": "http://worldofgwerh.terminalkiller.site",
@@ -25,13 +43,14 @@
           "es": "Arte y Entretenimiento"
         },
         "technologies": {
-          "en": "NextJs, NodeJs",
-          "es": "NextJs, NodeJs"
+          "en": "ReactJs, NodeJs",
+          "es": "ReactJs, NodeJs"
         },
         "role": {
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
-        }
+        },
+        "idImg": "1bToH3PblA0YjvVeeWN_L4u7HRg891XYI"
       },
       {
         "href": "https://merch.laruinarecords.cl",
@@ -47,7 +66,8 @@
         "role": {
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
-        }
+        },
+        "idImg": ""
       },
       {
         "href": "https://laruinarecords.cl",
@@ -63,7 +83,8 @@
         "role": {
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
-        }
+        },
+        "idImg": ""
       },
       {
         "href": "http://projects.terminalkiller.site",
@@ -79,14 +100,15 @@
         "role": {
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
-        }
+        },
+        "idImg": "10M64Xj6SMfupn6V83yw3CYFQ8BFMfCrw"
       }  
     ]
   },
   {
     "desktop":[
       {
-        "href": "",
+        "href": "https://tv.laruinarecords.cl/download/desktop",
         "name": "LA RUINA TV",
         "description": {
           "en": "Multimedia Platform - Desktop Version",
@@ -99,7 +121,8 @@
         "role": {
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
-        }
+        },
+        "idImg": "10Vj3o0bb9OWhTtTZQ9W0JStwgwGdIWR4"
       },
       {
         "href": "http://worldofgwerh.terminalkiller.site/#/adventures/gwerh-the-bard/download/desktop",
@@ -115,14 +138,15 @@
         "role": {
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
-        }
+        },
+        "idImg": "10O3VI0Qu3FFXokiU_j_l9D58e5IF85-e"
       }
     ]
   },
   {
     "mobile":[
       {
-        "href": "",
+        "href": "https://download.terminalkiller.site/pawesomecare/download/mobile",
         "name": "PAWSOME CARE",
         "description": {
           "en": "Pet's Services",
@@ -135,10 +159,11 @@
         "role": {
           "en": "FullStack Developer",
           "es": "Desarrollador FullStack"
-        }
+        },
+        "idImg": "10Qz-vlBkM-4pxjR_pqt8j6rl9SfOS9gi"
       },
       {
-        "href": "",
+        "href": "https://tv.laruinarecords.cl/download/mobile",
         "name": "LA RUINA TV",
         "description": {
           "en": "Multimedia Platform - Mobile Version",
@@ -151,7 +176,8 @@
         "role": {
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
-        }
+        },
+        "idImg": "10VLtOglx-gePu2Lr0omDRR5_FKgAiqJm"
       },
       {
         "href": "http://worldofgwerh.terminalkiller.site/#/adventures/gwerh-the-bard/download/mobile",
@@ -167,7 +193,46 @@
         "role": {
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
-        }
+        },
+        "idImg": ""
+      }
+    ]
+  },
+  {
+    "software": [
+      {
+        "href": "https://github.com/LaloFreak/Traffic-Neural-Network",
+        "name": "TRAFFIC NEURAL NETWORK",
+        "description": {
+          "en": "Neural Network Training (Artificial Intelligence)",
+          "es": "Entrenamiento de Redes Neuronales (Inteligencia Artificial)"
+        },
+        "technologies": {
+          "en": "Python, TensorFlow",
+          "es": "Python, TensorFlow"
+        },
+        "role": {
+          "en": "Developer",
+          "es": "Desarrollador"
+        },
+        "idImg": "10a979JZ-76zmCbQQKaH8kJkK8xbUKgIN"
+      },
+      {
+        "href": "https://github.com/LaloFreak/ArmaggeDroneSoftware",
+        "name": "ARMAGGEDRONE",
+        "description": {
+          "en": "Software Smart Drone (Artificial Intelligence)",
+          "es": "Software Smart Drone (Inteligencia Artificial)"
+        },
+        "technologies": {
+          "en": "Python, AI",
+          "es": "Python, IA"
+        },
+        "role": {
+          "en": "Developer",
+          "es": "Desarrollador"
+        },
+        "idImg": ""
       }
     ]
   }
