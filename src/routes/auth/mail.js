@@ -53,19 +53,19 @@ passport.deserializeUser((user, done)=>{
 router.get('/', passport.authenticate('google-mail', {state: '200'}))
 
 router.get('/callback', passport.authenticate('google-mail', {
-    successRedirect: '/lalofreak/mail/google/login/success',
-    failureRedirect: '/lalofreak/mail/google/login/failure'
+  successRedirect: '/lalofreak/mail/google/login/success',
+  failureRedirect: '/lalofreak/mail/google/login/failure'
 }))
 
 router.get('/login/success', async(req,res) => {
-    const user = req.session.passport.user
-        
-    const accessToken = user.accessToken;
-    const existingUser = await User.findOne({
-        where: {
-            email: user.email,
-        }
-    });
+  const user = req.session.passport.user
+      
+  const accessToken = user.accessToken;
+  const existingUser = await User.findOne({
+      where: {
+          email: user.email,
+      }
+  });
 
   if (existingUser) {
       await User.update(
