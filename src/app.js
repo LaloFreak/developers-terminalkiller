@@ -9,6 +9,7 @@ const mail = require('./routes/auth/mail');
 const session = require("express-session");
 const { loginUserWithGoogle } = require("./controllers/users");
 const nodemailer = require("nodemailer");
+const { EMAIL_USER, OAUTH_CLIENT_ID, OAUTH_CLIENT_SECRET, OAUTH_REFRESH_TOKEN, OAUTH_ACCESS_TOKEN } = require("./config/config");
 
 const app = express();
 app.use(bodyParser.json());
@@ -64,11 +65,11 @@ const transporter = nodemailer.createTransport({
   service: "Gmail",
   auth: {
     type: "OAuth2",
-    user: process.env.EMAIL_USER,
-    clientId: process.env.OAUTH_CLIENT_ID,
-    clientSecret: process.env.OAUTH_CLIENT_SECRET,
-    refreshToken: process.env.OAUTH_REFRESH_TOKEN,
-    accessToken: process.env.OAUTH_ACCESS_TOKEN,
+    user: EMAIL_USER,
+    clientId: OAUTH_CLIENT_ID,
+    clientSecret: OAUTH_CLIENT_SECRET,
+    refreshToken: OAUTH_REFRESH_TOKEN,
+    accessToken: OAUTH_ACCESS_TOKEN,
   },
 });
 
@@ -76,7 +77,7 @@ const sendEmail = (formData) => {
   const { name, email, message } = formData;
   const mailOptions = {
     from: email,
-    to: process.env.EMAIL_USER,
+    to: EMAIL_USER,
     subject: `New message from ${name} (${email})`,
     text: message,
   };

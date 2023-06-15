@@ -3,6 +3,7 @@ const express = require('express')
 const router = express.Router()
 const passport = require("passport");
 const { User } = require("../../models/User");
+const { CLIENT_URL_LALOFREAK, GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, API_URL } = require("../../config/config");
 const GoogleStrategy = require("passport-google-oauth20").Strategy;
 
 
@@ -12,9 +13,9 @@ router.use(express.urlencoded({ extended: true }));
 passport.use('google',
   new GoogleStrategy(
     {
-      clientID: process.env.GOOGLE_CLIENT_ID,
-      clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-      callbackURL: `${process.env.API_URL}/auth/google/callback`,   
+      clientID: GOOGLE_CLIENT_ID,
+      clientSecret: GOOGLE_CLIENT_SECRET,
+      callbackURL: `${API_URL}/auth/google/callback`,   
       scope: [
         'email',
         'profile',
@@ -71,7 +72,7 @@ router.get('/login/success', async(req,res) => {
           { token: user.accessToken },
           { where: { email: user.email, } }
       )
-      return res.redirect(`${process.env.CLIENT_URL_LALOFREAK}/#/auth?token=${accessToken}`)
+      return res.redirect(`${CLIENT_URL_LALOFREAK}/#/auth?token=${accessToken}`)
   }
   await User.create({
     alias: user.name,
@@ -81,11 +82,11 @@ router.get('/login/success', async(req,res) => {
     token: user.accessToken,
     googlePic: user.photo,
   });
-  return res.redirect(`${process.env.CLIENT_URL_LALOFREAK}/#/auth?token=${accessToken}`)
+  return res.redirect(`${CLIENT_URL_LALOFREAK}/#/auth?token=${accessToken}`)
 })
 
 router.get('/login/failure', async(req,res) => {
-  res.redirect(`${process.env.CLIENT_URL_LALOFREAK}`)
+  res.redirect(`${CLIENT_URL_LALOFREAK}`)
 })
 
 router.get('/logout', (req,res)=>{

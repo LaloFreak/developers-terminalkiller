@@ -1,5 +1,6 @@
-const port = process.env.PORT || 8080
+const port = PORT || 8080
 const server = require('./app');
+const { PORT } = require('./config/config');
 const { sequelize } = require("./db.js");
 
 async function main() {
