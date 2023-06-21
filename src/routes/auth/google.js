@@ -3,8 +3,13 @@ const express = require('express')
 const router = express.Router()
 const passport = require("passport");
 const { User } = require("../../models/User");
-const { CLIENT_URL_LALOFREAK, GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, API_URL } = require("../../config/config");
 const GoogleStrategy = require("passport-google-oauth20").Strategy;
+const { 
+  CLIENT_URL_LALOFREAK, 
+  GOOGLE_CLIENT_ID, 
+  GOOGLE_CLIENT_SECRET, 
+  API_URL 
+} = require("../../config/config");
 
 
 router.use(express.json())

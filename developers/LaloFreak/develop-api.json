@@ -2,6 +2,23 @@
   {
     "web": [
       {
+        "href": "https://lalofreak.github.io/Three-Template/",
+        "name": "TREEJS 3D APP - TESTING CONTROLLERS",
+        "description": {
+          "en": "Tests for controllers of my first 3D Application",
+          "es": "Pruebas para controladores de mi primera Aplicación 3D"
+        },
+        "technologies": {
+          "en": "ThreeJs",
+          "es": "ThreeJs"
+        },
+        "role": {
+          "en": "UI/UX Designer",
+          "es": "Diseñador UI/UX"
+        },
+        "idImg": "14SxYl42DI_uXbqK0TWFXkj4an6q2i928"
+      },
+      {
         "href": "https://terminalkiller.site/#/ai-testing",
         "name": "ARTIFICIAL INTELLIGENCE APP - TESTING",
         "description": {
