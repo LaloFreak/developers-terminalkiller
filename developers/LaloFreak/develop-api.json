@@ -3,10 +3,10 @@
     "web": [
       {
         "href": "https://lalofreak.github.io/Three-Template/",
-        "name": "TREEJS 3D APP - TESTING CONTROLLERS",
+        "name": "THREEJS 3D APP - TESTING CONTROLLERS",
         "description": {
-          "en": "Tests for controllers of my first 3D Application",
-          "es": "Pruebas para controladores de mi primera Aplicación 3D"
+          "en": "Test for controllers of my first 3D Application",
+          "es": "Prueba para controladores de mi primera Aplicación 3D"
         },
         "technologies": {
           "en": "ThreeJs",
