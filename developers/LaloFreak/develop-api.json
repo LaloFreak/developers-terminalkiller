@@ -2,7 +2,7 @@
   {
     "web": [
       {
-        "href": "https://lalofreak.github.io/Three-Template/",
+        "href": "https://gwerhdev.github.io/Three-Template/",
         "name": "THREEJS 3D APP - TESTING CONTROLLERS",
         "description": {
           "en": "Test for controllers of my first 3D Application",
@@ -218,7 +218,7 @@
   {
     "software": [
       {
-        "href": "https://github.com/LaloFreak/Traffic-Neural-Network",
+        "href": "https://github.com/GwerhDev/Traffic-Neural-Network",
         "name": "TRAFFIC NEURAL NETWORK",
         "description": {
           "en": "Neural Network Training (Artificial Intelligence)",
@@ -235,7 +235,7 @@
         "idImg": "10a979JZ-76zmCbQQKaH8kJkK8xbUKgIN"
       },
       {
-        "href": "https://github.com/LaloFreak/ArmaggeDroneSoftware",
+        "href": "https://github.com/GwerhDev/ArmaggeDroneSoftware",
         "name": "ARMAGGEDRONE",
         "description": {
           "en": "Software Smart Drone (Artificial Intelligence)",
