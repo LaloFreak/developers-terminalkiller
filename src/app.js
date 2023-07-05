@@ -1,8 +1,8 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
-const develop = require('../developers/LaloFreak/develop-api.json');
-const sound = require('../developers/LaloFreak/sound-api.json');
+const develop = require('../developers/Gwerh/develop-api.json');
+const sound = require('../developers/Gwerh/sound-api.json');
 const auth = require('./routes/auth/google');
 const mail = require('./routes/auth/mail');
 
@@ -28,7 +28,7 @@ app.use((req, res, next)=>{
   next();
 });
 app.get("/home", (req, res) => {
-  res.send("¡Hola, mundo!");
+  res.status(200).send("¡Hola, mundo!");
 });
 
 app.get("/lalofreak/users/:id", (req, res) => {
