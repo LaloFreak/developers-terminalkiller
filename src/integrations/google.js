@@ -2,20 +2,25 @@ require("dotenv").config()
 const express = require('express')
 const router = express.Router()
 const passport = require("passport");
-const { User } = require("../../models/User");
-const { GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, API_URL, CLIENT_URL_LALOFREAK } = require("../../config/config");
+const userSchema = require("../models/User");
 const GoogleStrategy = require("passport-google-oauth20").Strategy;
+const { 
+  CLIENT_URL_LALOFREAK, 
+  GOOGLE_CLIENT_ID, 
+  GOOGLE_CLIENT_SECRET, 
+  API_URL 
+} = require("../config/config");
 
 
 router.use(express.json())
 router.use(express.urlencoded({ extended: true }));
 
-passport.use('google-mail',
+passport.use('google',
   new GoogleStrategy(
     {
       clientID: GOOGLE_CLIENT_ID,
       clientSecret: GOOGLE_CLIENT_SECRET,
-      callbackURL: `${API_URL}/mail/google/callback`,   
+      callbackURL: `${API_URL}/auth/google/callback`,   
       scope: [
         'email',
         'profile',
@@ -50,40 +55,38 @@ passport.deserializeUser((user, done)=>{
     done(null, user)
 });
 
-router.get('/', passport.authenticate('google-mail', {state: '200'}))
+router.get('/', passport.authenticate('google', {state: '200'}))
 
-router.get('/callback', passport.authenticate('google-mail', {
-  successRedirect: '/lalofreak/mail/google/login/success',
-  failureRedirect: '/lalofreak/mail/google/login/failure'
+router.get('/callback', passport.authenticate('google', {
+  successRedirect: '/gwerh/auth/google/login/success',
+  failureRedirect: '/gwerh/auth/google/login/failure'
 }))
 
 router.get('/login/success', async(req,res) => {
   const user = req.session.passport.user
       
   const accessToken = user.accessToken;
-  const existingUser = await User.findOne({
-      where: {
-          email: user.email,
-      }
-  });
+  const existingUser = await userSchema.findOne({ email: user.email });
 
   if (existingUser) {
-      await User.update(
-          { token: user.accessToken },
-          { where: { email: user.email, } }
-      )
-      return res.redirect(`${CLIENT_URL_LALOFREAK}/#/mail/auth?token=${accessToken}`)
+    existingUser.accessToken = accessToken;
+    await existingUser.save();
+    return res.redirect(`${CLIENT_URL_LALOFREAK}/#/auth/auth?token=${accessToken}`)
   }
-  await User.create({
+  const userData = {
     alias: user.name,
     email: user.email,
     method: 'google',
     isVerified: true,
     token: user.accessToken,
     googlePic: user.photo,
-  });
-  return res.redirect(`${CLIENT_URL_LALOFREAK}/#/mail/auth?token=${accessToken}`)
+  }
+
+  const newUser = new userSchema(userData);
+  await newUser.save()
+  return res.redirect(`${CLIENT_URL_LALOFREAK}/#/auth/auth?token=${accessToken}`)
 })
+
 
 router.get('/login/failure', async(req,res) => {
   res.redirect(`${CLIENT_URL_LALOFREAK}`)

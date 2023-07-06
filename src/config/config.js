@@ -1,6 +1,7 @@
 require('dotenv').config();
 
 module.exports = {
+  SESSION_SECRET: process.env.SESSION_SECRET,
   GOOGLE_CLIENT_ID: process.env.GOOGLE_CLIENT_ID,
   GOOGLE_CLIENT_SECRET: process.env.GOOGLE_CLIENT_SECRET,
   API_URL: process.env.API_URL,
@@ -12,5 +13,7 @@ module.exports = {
   OAUTH_CLIENT_SECRET: process.env.OAUTH_CLIENT_SECRET,
   OAUTH_REFRESH_TOKEN: process.env.OAUTH_REFRESH_TOKEN,
   OAUTH_ACCESS_TOKEN: process.env.OAUTH_ACCESS_TOKEN,
-  POSTGRES_STRING: process.env.POSTGRES_STRING
+  POSTGRES_STRING: process.env.POSTGRES_STRING,
+  MONGODB_STRING: process.env.MONGODB_STRING,
+  NPM_ACCESS_TOKEN: process.env.NPM_ACCESS_TOKEN,
 };

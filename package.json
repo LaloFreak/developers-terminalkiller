@@ -4,12 +4,14 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "dev": "nodemon"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.4.0",
     "bcrypt": "^5.0.1",
     "busboy": "^1.6.0",
     "cookie-session": "^2.0.0",
@@ -22,10 +24,12 @@
     "googleapis": "^110.0.0",
     "https": "^1.0.0",
     "mongodb": "^5.1.0",
-    "mongoose": "^7.0.1",
+    "mongoose": "^7.3.2",
     "morgan": "^1.10.0",
     "multer": "^1.4.5-lts.1",
     "nodemailer": "^6.9.1",
+    "npm-package-arg": "^10.1.0",
+    "npm-registry-fetch": "^14.0.5",
     "passport": "^0.6.0",
     "passport-google-oauth20": "^2.0.0",
     "pg": "^8.8.0",

@@ -1,21 +1,21 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
-const develop = require('../developers/Gwerh/develop-api.json');
-const sound = require('../developers/Gwerh/sound-api.json');
-const auth = require('./routes/auth/google');
-const mail = require('./routes/auth/mail');
+const gwerhRutes = require('./routes/gwerh');
+const auth = require('./integrations/google');
+const mail = require('./integrations/mail');
+const fetch = require('node-fetch');
 
 const session = require("express-session");
 const { loginUserWithGoogle } = require("./controllers/users");
 const nodemailer = require("nodemailer");
-const { EMAIL_USER, OAUTH_CLIENT_ID, OAUTH_CLIENT_SECRET, OAUTH_REFRESH_TOKEN, OAUTH_ACCESS_TOKEN } = require("./config/config");
+const { EMAIL_USER, OAUTH_CLIENT_ID, OAUTH_CLIENT_SECRET, OAUTH_REFRESH_TOKEN, OAUTH_ACCESS_TOKEN, SESSION_SECRET } = require("./config/config");
 
 const app = express();
 app.use(bodyParser.json());
 app.use(cors());
 app.use(session({
-  secret: 'TU_CLAVE_SECRETA',
+  secret: SESSION_SECRET,
   resave: false,
   saveUninitialized: true
 }));
@@ -31,27 +31,16 @@ app.get("/home", (req, res) => {
   res.status(200).send("¡Hola, mundo!");
 });
 
-app.get("/lalofreak/users/:id", (req, res) => {
+app.get("/gwerh/users/:id", (req, res) => {
   const id = req.params.id;
   res.send(user);
 });
 
-app.get("/lalofreak/getdevelop", async (req, res) => {
-  res.status(200).send(develop)
-});
+app.use('/gwerh/auth/google', auth)
 
-app.get("/lalofreak/getdesign", async (req, res) => {
-  res.status(200).send(design)
-});
+app.use('/gwerh/mail/google', mail)
 
-app.get("/lalofreak/getsound", async (req, res) => {
-  res.status(200).send(sound)
-});
-app.use('/lalofreak/auth/google', auth)
-
-app.use('/lalofreak/mail/google', mail)
-
-app.post("/lalofreak/users/loginwithgoogle", async (req, res) => {
+app.post("/gwerh/users/loginwithgoogle", async (req, res) => {
   try {
     const response = await loginUserWithGoogle(req, res)
     res.json({ msg: response });
@@ -59,7 +48,6 @@ app.post("/lalofreak/users/loginwithgoogle", async (req, res) => {
     res.status(400).json({ error: error }); 
   }
 });
-
 
 const transporter = nodemailer.createTransport({
   service: "Gmail",
@@ -85,7 +73,7 @@ const sendEmail = (formData) => {
 };
 
 
-app.post("/lalofreak/sendemail", (req, res) => {
+app.post("/gwerh/sendemail", (req, res) => {
   sendEmail(req.body)
   .then(() => {
     res.status(200).json({ message:{ EN: "Email sent successfully.", ES: "Email enviado exitosamente" } });
@@ -95,5 +83,23 @@ app.post("/lalofreak/sendemail", (req, res) => {
     res.status(500).json({ message: { EN: "Failed to send email.", ES: "Error al enviar email" } });
   });
 });
+
+
+const username = 'gwerhdev';
+
+app.get("/gwerh/packages", async (req, res) => {
+  try {
+    const searchUrl = `https://registry.npmjs.org/-/_view/byUser?key="${username}"`;
+    const response = await fetch(searchUrl);
+    const data = await response.json();
+    console.log(data.message);
+    const packageNames = data.rows.map((row) => row.key[1]);
+    res.json({ paquetes: packageNames });
+  } catch (error) {
+    res.status(500).json({ error: 'Error al obtener la lista de paquetes' });
+  }
+});
+
+app.use('/gwerh', gwerhRutes);
 
 module.exports = app;
