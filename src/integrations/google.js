@@ -63,28 +63,32 @@ router.get('/callback', passport.authenticate('google', {
 }))
 
 router.get('/login/success', async(req,res) => {
-  const user = req.session.passport.user
-      
-  const accessToken = user.accessToken;
-  const existingUser = await userSchema.findOne({ email: user.email });
+  try {
+    const user = req.session.passport.user
+    const existingUser = await userSchema.findOne({ email: user.email });
+    const accessToken = user.accessToken;
+    if (existingUser) {
+      existingUser.token = accessToken;
+      await existingUser.save();
+      return res.status(200).redirect(`${CLIENT_URL_LALOFREAK}/#/auth/auth?token=${accessToken}`)
+    }
+    const userData = {
+      alias: user.name,
+      email: user.email,
+      method: 'google',
+      isVerified: true,
+      token: user.accessToken,
+      googlePic: user.photo,
+    }
+    const newUser = new userSchema(userData);
+    await newUser.save()
+    return res.status(200).redirect(`${CLIENT_URL_LALOFREAK}/#/auth/auth?token=${accessToken}`)
 
-  if (existingUser) {
-    existingUser.accessToken = accessToken;
-    await existingUser.save();
-    return res.redirect(`${CLIENT_URL_LALOFREAK}/#/auth/auth?token=${accessToken}`)
-  }
-  const userData = {
-    alias: user.name,
-    email: user.email,
-    method: 'google',
-    isVerified: true,
-    token: user.accessToken,
-    googlePic: user.photo,
+  } catch (error) {
+    
   }
 
-  const newUser = new userSchema(userData);
-  await newUser.save()
-  return res.redirect(`${CLIENT_URL_LALOFREAK}/#/auth/auth?token=${accessToken}`)
+
 })
 
 
