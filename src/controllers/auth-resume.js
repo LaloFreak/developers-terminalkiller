@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const passport = require("passport");
 const userSchema = require("../models/User");
-const { CLIENT_URL_LALOFREAK } = require("../config/config");
+const { CLIENT_URL_GWERH } = require("../config/config");
 const { loginResume } = require('../integrations/google');
 
 passport.use('login-resume', loginResume);
@@ -30,7 +30,7 @@ router.get('/google/login/success', async(req,res) => {
     if (existingUser) {
       existingUser.token = accessToken;
       await existingUser.save();
-      return res.status(200).redirect(`${CLIENT_URL_LALOFREAK}/#/resume/auth?token=${accessToken}`)
+      return res.status(200).redirect(`${CLIENT_URL_GWERH}/#/resume/auth?token=${accessToken}`)
     }
     const userData = {
       alias: user.name,
@@ -42,7 +42,7 @@ router.get('/google/login/success', async(req,res) => {
     }
     const newUser = new userSchema(userData);
     await newUser.save()
-    return res.status(200).redirect(`${CLIENT_URL_LALOFREAK}/#/resume/auth?token=${accessToken}`)
+    return res.status(200).redirect(`${CLIENT_URL_GWERH}/#/resume/auth?token=${accessToken}`)
 
   } catch (error) {
     return res.status(500).json({error: error.message})
@@ -50,7 +50,7 @@ router.get('/google/login/success', async(req,res) => {
 })
 
 router.get('/google/login/failure', async(req,res) => {
-  res.redirect(`${CLIENT_URL_LALOFREAK}`)
+  res.redirect(`${CLIENT_URL_GWERH}`)
 })
 
 module.exports = router

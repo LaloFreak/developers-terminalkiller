@@ -7,7 +7,7 @@ module.exports = {
   GOOGLE_CLIENT_SECRET: process.env.GOOGLE_CLIENT_SECRET,
   API_URL: process.env.API_URL,
   CLIENT_URL: process.env.CLIENT_URL,
-  CLIENT_URL_LALOFREAK: process.env.CLIENT_URL_LALOFREAK,
+  CLIENT_URL_GWERH: process.env.CLIENT_URL_GWERH,
   NODEMAILER_NAME: process.env.NODEMAILER_NAME,
   EMAIL_USER: process.env.EMAIL_USER,
   OAUTH_CLIENT_ID: process.env.OAUTH_CLIENT_ID,

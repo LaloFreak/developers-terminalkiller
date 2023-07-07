@@ -16,8 +16,8 @@ router.use("/getsound", apiSound);
 
 router.use("/auth/resume", authResume)
 router.use("/auth/mail", authMail);
-router.use("/users", users);
 
+router.use("/users", users);
 
 router.get("/packages", async (req, res) => {
     try {
