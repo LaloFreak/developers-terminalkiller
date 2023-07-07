@@ -3,6 +3,7 @@
     "web": [
       {
         "href": "https://gwerhdev.github.io/Three-Template/",
+        "repository": "https://github.com/GwerhDev/Three-Template",
         "name": "THREEJS 3D APP - TESTING CONTROLLERS",
         "description": {
           "en": "Test for controllers of my first 3D Application",
@@ -20,6 +21,7 @@
       },
       {
         "href": "https://terminalkiller.site/#/ai-testing",
+        "repository": "https://github.com/GwerhDev/ArtificialIntelligence-Client",
         "name": "ARTIFICIAL INTELLIGENCE APP - TESTING",
         "description": {
           "en": "Tests and training for my first AI Application",
@@ -37,6 +39,7 @@
       },
       {
         "href": "https://tv.laruinarecords.cl",
+        "repository": "https://github.com/GwerhDev/La-Ruina-TV-client",
         "name": "LA RUINA TV",
         "description": {
           "en": "Multimedia Platform",
@@ -54,6 +57,7 @@
       },
       {
         "href": "http://worldofgwerh.terminalkiller.site",
+        "repository": "https://github.com/GwerhDev/World-of-Gwerh",
         "name": "WORLD OF GWERH",
         "description": {
           "en": "Art & Entertainment",
@@ -71,6 +75,7 @@
       },
       {
         "href": "https://merch.laruinarecords.cl",
+        "repository": "",
         "name": "LA RUINA MERCH",
         "description": {
           "en": "E-Commerce",
@@ -88,6 +93,7 @@
       },
       {
         "href": "https://laruinarecords.cl",
+        "repository": "https://github.com/GwerhDev/LaRuinaRecords",
         "name": "LA RUINA RECORDS",
         "description": {
           "en": "Sound Services",
@@ -105,6 +111,7 @@
       },
       {
         "href": "http://projects.terminalkiller.site",
+        "repository": "https://github.com/GwerhDev/Projects-TerminalKiller",
         "name": "TERMINALKILLER PROJECTS",
         "description": {
           "en": "Cooperative Projects",
@@ -126,6 +133,7 @@
     "desktop":[
       {
         "href": "https://tv.laruinarecords.cl/download/desktop",
+        "repository": "",
         "name": "LA RUINA TV",
         "description": {
           "en": "Multimedia Platform - Desktop Version",
@@ -143,6 +151,7 @@
       },
       {
         "href": "http://worldofgwerh.terminalkiller.site/#/adventures/gwerh-the-bard/download/desktop",
+        "repository":"",
         "name": "GWERH, THE BARD",
         "description": {
           "en": "Interactive Application - Desktop Version",
@@ -164,6 +173,7 @@
     "mobile":[
       {
         "href": "https://terminalkiller.site/pawesomecare/download/mobile",
+        "repository": "https://github.com/TerminalKiller-Project/client-petapp",
         "name": "PAWSOME CARE",
         "description": {
           "en": "Pet's Services",
@@ -181,6 +191,7 @@
       },
       {
         "href": "https://tv.laruinarecords.cl/download/mobile",
+        "repository": "",
         "name": "LA RUINA TV",
         "description": {
           "en": "Multimedia Platform - Mobile Version",
@@ -198,6 +209,7 @@
       },
       {
         "href": "http://worldofgwerh.terminalkiller.site/#/adventures/gwerh-the-bard/download/mobile",
+        "repository": "",
         "name": "GWERH, THE BARD",
         "description": {
           "en": "Interactive Application - Mobile Version",
@@ -219,6 +231,7 @@
     "software": [
       {
         "href": "https://github.com/GwerhDev/Traffic-Neural-Network",
+        "repository": "https://github.com/GwerhDev/Traffic-Neural-Network",
         "name": "TRAFFIC NEURAL NETWORK",
         "description": {
           "en": "Neural Network Training (Artificial Intelligence)",
@@ -236,6 +249,7 @@
       },
       {
         "href": "https://github.com/GwerhDev/ArmaggeDroneSoftware",
+        "repository": "https://github.com/GwerhDev/ArmaggeDroneSoftware",
         "name": "ARMAGGEDRONE",
         "description": {
           "en": "Software Smart Drone (Artificial Intelligence)",
