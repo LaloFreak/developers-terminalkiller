@@ -26,7 +26,7 @@ router.get('/google/login/success', async(req,res) => {
     const user = req.session.passport.user;
     const existingUser = await userSchema.findOne({ email: user.email });
     const accessToken = user.accessToken;
-
+    
     if (existingUser) {
       existingUser.token = accessToken;
       await existingUser.save();
