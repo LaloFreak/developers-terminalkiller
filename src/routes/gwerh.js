@@ -1,7 +1,8 @@
 const axios = require('axios');
 const router = require('express').Router();
-const authLogin = require('../integrations/google');
-const authMail = require('../integrations/mail');
+
+const authResume = require('../controllers/auth-resume');
+const authMail = require('../controllers/auth-mail');
 const users = require('../controllers/users');
 const apiDevelop = require('../controllers/api-develop');
 const apiDesign = require('../controllers/api-design');
@@ -13,10 +14,10 @@ router.use("/getdevelop", apiDevelop);
 router.use("/getdesign", apiDesign);
 router.use("/getsound", apiSound);
 
-router.use("/auth/google", authLogin);
 router.use("/mail/google", authMail);
 
 router.use("/users", users);
+router.use("/auth/resume", authResume)
 
 router.get("/packages", async (req, res) => {
     try {
