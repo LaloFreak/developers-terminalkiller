@@ -1,19 +1,16 @@
 const userSchema = require("../models/User");
 
-const loginUserWithGoogle = async (req, res) => {
-    const { accessToken } = req.body
-    try {
+const loginUserWithGoogle = async (accessToken) => {
+  try {
       const user = await userSchema.findOne({ token: accessToken });
-  
+      console.log(user)
       if (user) {
-        const userAlias = user[0].alias;
-        const email = user[0].email;
-        const googlePic = user[0].googlePic
+        const userAlias = user.alias;
+        const email = user.email;
+        const googlePic = user.googlePic
         
-        const payload = {
-          userAlias, email, googlePic,
-        }
-  
+        const payload = { userAlias, email, googlePic }
+
         return payload
       }
       return 'token invalido'

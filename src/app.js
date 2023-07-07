@@ -2,12 +2,9 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const gwerhRutes = require('./routes/gwerh');
-const auth = require('./integrations/google');
 const mail = require('./integrations/mail');
-const fetch = require('node-fetch');
 
 const session = require("express-session");
-const { loginUserWithGoogle } = require("./controllers/users");
 const nodemailer = require("nodemailer");
 const { EMAIL_USER, OAUTH_CLIENT_ID, OAUTH_CLIENT_SECRET, OAUTH_REFRESH_TOKEN, OAUTH_ACCESS_TOKEN, SESSION_SECRET } = require("./config/config");
 
@@ -36,18 +33,7 @@ app.get("/gwerh/users/:id", (req, res) => {
   res.send(user);
 });
 
-app.use('/gwerh/auth/google', auth)
-
 app.use('/gwerh/mail/google', mail)
-
-app.post("/gwerh/users/loginwithgoogle", async (req, res) => {
-  try {
-    const response = await loginUserWithGoogle(req, res)
-    res.json({ msg: response });
-  } catch (error) {
-    res.status(400).json({ error: error }); 
-  }
-});
 
 const transporter = nodemailer.createTransport({
   service: "Gmail",
@@ -72,7 +58,6 @@ const sendEmail = (formData) => {
   return transporter.sendMail(mailOptions);
 };
 
-
 app.post("/gwerh/sendemail", (req, res) => {
   sendEmail(req.body)
   .then(() => {
@@ -82,22 +67,6 @@ app.post("/gwerh/sendemail", (req, res) => {
   console.error(error);
     res.status(500).json({ message: { EN: "Failed to send email.", ES: "Error al enviar email" } });
   });
-});
-
-
-const username = 'gwerhdev';
-
-app.get("/gwerh/packages", async (req, res) => {
-  try {
-    const searchUrl = `https://registry.npmjs.org/-/_view/byUser?key="${username}"`;
-    const response = await fetch(searchUrl);
-    const data = await response.json();
-    console.log(data.message);
-    const packageNames = data.rows.map((row) => row.key[1]);
-    res.json({ paquetes: packageNames });
-  } catch (error) {
-    res.status(500).json({ error: 'Error al obtener la lista de paquetes' });
-  }
 });
 
 app.use('/gwerh', gwerhRutes);
