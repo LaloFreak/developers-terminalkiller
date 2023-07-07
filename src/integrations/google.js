@@ -4,13 +4,7 @@ const router = express.Router()
 const passport = require("passport");
 const userSchema = require("../models/User");
 const GoogleStrategy = require("passport-google-oauth20").Strategy;
-const { 
-  CLIENT_URL_LALOFREAK, 
-  GOOGLE_CLIENT_ID, 
-  GOOGLE_CLIENT_SECRET, 
-  API_URL 
-} = require("../config/config");
-
+const { CLIENT_URL_LALOFREAK, GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, API_URL } = require("../config/config");
 
 router.use(express.json())
 router.use(express.urlencoded({ extended: true }));
@@ -85,22 +79,12 @@ router.get('/login/success', async(req,res) => {
     return res.status(200).redirect(`${CLIENT_URL_LALOFREAK}/#/auth/auth?token=${accessToken}`)
 
   } catch (error) {
-    
+    return res.status(500).json({error: error.message})
   }
-
-
 })
-
 
 router.get('/login/failure', async(req,res) => {
   res.redirect(`${CLIENT_URL_LALOFREAK}`)
-})
-
-router.get('/logout', (req,res)=>{
-  req.logout((err)=>{
-    if(err) return;
-    res.redirect('/')
-  })
 })
 
 module.exports = router

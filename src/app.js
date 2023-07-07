@@ -1,10 +1,8 @@
-const express = require("express");
-const bodyParser = require("body-parser");
 const cors = require("cors");
-const gwerhRutes = require('./routes/gwerh');
-const mail = require('./integrations/mail');
-
+const express = require("express");
 const session = require("express-session");
+const bodyParser = require("body-parser");
+const gwerhRutes = require('./routes/gwerh');
 const nodemailer = require("nodemailer");
 const { EMAIL_USER, OAUTH_CLIENT_ID, OAUTH_CLIENT_SECRET, OAUTH_REFRESH_TOKEN, OAUTH_ACCESS_TOKEN, SESSION_SECRET } = require("./config/config");
 
@@ -27,13 +25,6 @@ app.use((req, res, next)=>{
 app.get("/home", (req, res) => {
   res.status(200).send("¡Hola, mundo!");
 });
-
-app.get("/gwerh/users/:id", (req, res) => {
-  const id = req.params.id;
-  res.send(user);
-});
-
-app.use('/gwerh/mail/google', mail)
 
 const transporter = nodemailer.createTransport({
   service: "Gmail",

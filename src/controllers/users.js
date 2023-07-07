@@ -1,23 +1,20 @@
-const userSchema = require("../models/User");
+const router = require('express').Router();
+const { googleLogin } = require('../functions/googleLogin');
 
-const loginUserWithGoogle = async (accessToken) => {
+router.post("/loginwithgoogle", async (req, res) => {
   try {
-      const user = await userSchema.findOne({ token: accessToken });
-      if (user) {
-        const userAlias = user.alias;
-        const email = user.email;
-        const googlePic = user.googlePic
-        
-        const payload = { userAlias, email, googlePic }
-
-        return payload
-      }
-      return 'token invalido'
-    } catch (error) {
-      return console.error(error)
-    }
+    const { accessToken } = req.body
+    console.log(accessToken)
+    const response = await googleLogin(accessToken)
+    res.status(200).json({ msg: response });
+  } catch (error) {
+    res.status(400).json({ error: error }); 
   }
+});
 
-  module.exports = {
-    loginUserWithGoogle
-  }
+router.get("/:id", (req, res) => {
+  const id = req.params.id;
+  res.send(user);
+});
+
+module.exports = router
