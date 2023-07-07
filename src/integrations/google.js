@@ -5,7 +5,7 @@ const { GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, API_URL } = require("../config/c
 const loginResume = new GoogleStrategy({
   clientID: GOOGLE_CLIENT_ID,
   clientSecret: GOOGLE_CLIENT_SECRET,
-  callbackURL: `${API_URL}/users/resume/google/callback`,
+  callbackURL: `${API_URL}/auth/resume/google/callback`,
   scope: [
     'email',
     'profile',

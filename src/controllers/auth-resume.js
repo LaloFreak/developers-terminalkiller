@@ -14,14 +14,14 @@ passport.deserializeUser((user, done)=>{
   done(null, user)
 });
 
-router.get('/', passport.authenticate('login-resume', {state: '200'}))
+router.get('/google', passport.authenticate('login-resume', {state: '200'}))
 
-router.get('/callback', passport.authenticate('login-resume', {
+router.get('/google/callback', passport.authenticate('login-resume', {
   successRedirect: '/gwerh/auth/resume/google/login/success',
   failureRedirect: '/gwerh/auth/resume/google/login/failure'
 }))
 
-router.get('/login/success', async(req,res) => {
+router.get('/google/login/success', async(req,res) => {
   try {
     const user = req.session.passport.user;
     const existingUser = await userSchema.findOne({ email: user.email });
@@ -49,7 +49,7 @@ router.get('/login/success', async(req,res) => {
   }
 })
 
-router.get('/login/failure', async(req,res) => {
+router.get('/google/login/failure', async(req,res) => {
   res.redirect(`${CLIENT_URL_LALOFREAK}`)
 })
 
