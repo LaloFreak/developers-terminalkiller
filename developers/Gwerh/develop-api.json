@@ -2,6 +2,24 @@
   {
     "web": [
       {
+        "href": "https://gwerhdev-vue-app.netlify.app/",
+        "repository": "https://github.com/GwerhDev/VueApp-Client",
+        "name": "VUE APP - PRUEBA TÉCNICA FRONT-END",
+        "description": {
+          "en": "Technical test for Front-End job position",
+          "es": "Prueba técnica para puesto de trabajo Front-End"
+        },
+        "technologies": {
+          "en": "VueJs, Pinia, Axios, Vite, Vitest, TypeScript",
+          "es": "VueJs, Pinia, Axios, Vite, Vitest, TypeScript"
+        },
+        "role": {
+          "en": "Front-End Developer, UI/UX Designer",
+          "es": "Desarrollador Front-End, Diseñador UI/UX"
+        },
+        "idImg": "1-24jbRwqY0ujv8qfLTQ4jj8uDaz5zBeL"
+      },
+      {
         "href": "https://gwerhdev.github.io/Three-Template/",
         "repository": "https://github.com/GwerhDev/Three-Template",
         "name": "THREEJS 3D APP - TESTING CONTROLLERS",
