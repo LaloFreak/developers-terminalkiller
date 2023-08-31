@@ -92,6 +92,24 @@
         "idImg": "1bToH3PblA0YjvVeeWN_L4u7HRg891XYI"
       },
       {
+        "href": "http://chathdp.terminalkiller.site/",
+        "repository": "https://github.com/GwerhDev/ChatHDP",
+        "name": "CHAT-HDP",
+        "description": {
+          "en": "Meme clone for Chat-GPT",
+          "es": "Clon meme de Chat-GPT"
+        },
+        "technologies": {
+          "en": "NextJs",
+          "es": "NextJs"
+        },
+        "role": {
+          "en": "FullStack Developer",
+          "es": "Desarrollador FullStack"
+        },
+        "idImg": "1-gmnUAxqTw1qWGun-XksPZ_U2qvyzl3I"
+      },
+      {
         "href": "https://merch.laruinarecords.cl",
         "repository": "",
         "name": "LA RUINA MERCH",
