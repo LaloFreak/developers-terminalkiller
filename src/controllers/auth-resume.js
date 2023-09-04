@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const passport = require("passport");
 const userSchema = require("../models/User");
-const { CLIENT_URL_GWERH } = require("../config/config");
+const { CLIENT_URL_GWERH } = require("../config");
 const { loginResume } = require('../integrations/google');
 
 passport.use('login-resume', loginResume);

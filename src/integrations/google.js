@@ -1,6 +1,6 @@
 require("dotenv").config()
 const GoogleStrategy = require("passport-google-oauth20").Strategy;
-const { GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, API_URL } = require("../config/config");
+const { GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, API_URL } = require("../config");
 
 const loginResume = new GoogleStrategy({
   clientID: GOOGLE_CLIENT_ID,

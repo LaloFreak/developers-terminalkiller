@@ -1,5 +1,5 @@
 const nodemailer = require("nodemailer");
-const { EMAIL_USER, OAUTH_CLIENT_ID, OAUTH_CLIENT_SECRET, OAUTH_REFRESH_TOKEN, OAUTH_ACCESS_TOKEN } = require("../config/config");
+const { EMAIL_USER, OAUTH_CLIENT_ID, OAUTH_CLIENT_SECRET, OAUTH_REFRESH_TOKEN, OAUTH_ACCESS_TOKEN } = require("../config");
 
 const transporter = nodemailer.createTransport({
   service: "Gmail",

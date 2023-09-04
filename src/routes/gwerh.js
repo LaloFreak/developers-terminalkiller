@@ -8,13 +8,13 @@ const apiDevelop = require('../controllers/api-develop');
 const apiDesign = require('../controllers/api-design');
 const apiSound = require('../controllers/api-sound');
 
-const { NPM_ACCESS_TOKEN } = require('../config/config');
+const { NPM_ACCESS_TOKEN } = require('../config');
 
 router.use("/getdevelop", apiDevelop);
 router.use("/getdesign", apiDesign);
 router.use("/getsound", apiSound);
 
-router.use("/auth/resume", authResume)
+router.use("/auth/resume", authResume);
 router.use("/auth/mail", authMail);
 
 router.use("/users", users);

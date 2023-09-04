@@ -1,6 +1,7 @@
 require('dotenv').config();
 
 module.exports = {
+  PORT: process.env.PORT,
   SESSION_SECRET: process.env.SESSION_SECRET,
   JWT_SECRET: process.env.JWT_SECRET,
   GOOGLE_CLIENT_ID: process.env.GOOGLE_CLIENT_ID,

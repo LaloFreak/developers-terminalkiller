@@ -1,6 +1,6 @@
 const userSchema = require("../models/User");
 const { transporter } = require("../integrations/nodemailer");
-const { EMAIL_USER } = require("../config/config");
+const { EMAIL_USER } = require("../config");
 
 const googleLogin = async (accessToken) => {
   try {
