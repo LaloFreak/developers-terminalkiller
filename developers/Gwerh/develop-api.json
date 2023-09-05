@@ -266,6 +266,24 @@
   {
     "software": [
       {
+        "href": "https://github.com/GwerhDev/EscuderoWoG-Bot",
+        "repository": "https://github.com/GwerhDev/EscuderoWoG-Bot",
+        "name": "ESCUDERO BOT",
+        "description": {
+          "en": "Bot assistant for Discord's server of World of Gwerh project",
+          "es": "Bot asistente para servidor de Discord para proyecto World of Gwerh"
+        },
+        "technologies": {
+          "en": "DiscordJs, NodeJs",
+          "es": "DiscordJs, NodeJs"
+        },
+        "role": {
+          "en": "Developer",
+          "es": "Desarrollador"
+        },
+        "idImg": "1-jCBd21oVIW08OWfXy6RerpZOVZMkBIx"
+      },
+      {
         "href": "https://github.com/GwerhDev/Traffic-Neural-Network",
         "repository": "https://github.com/GwerhDev/Traffic-Neural-Network",
         "name": "TRAFFIC NEURAL NETWORK",
