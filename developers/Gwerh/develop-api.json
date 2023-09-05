@@ -56,6 +56,24 @@
         "idImg": "10cQSHYR-JMfMMXBETucRpuw19rnyaCQ4"
       },
       {
+        "href": "https://lu-roco-tattoo-studio.vercel.app/",
+        "repository": "https://github.com/GwerhDev/LuRocoTattooStudio-Client",
+        "name": "LUROCO TATOO STUDIO",
+        "description": {
+          "en": "Tatoo Studio's webpage",
+          "es": "Página web de Estudio de Tatuajes"
+        },
+        "technologies": {
+          "en": "ReactJs, NodeJs, ExpressJs",
+          "es": "ReactJs, NodeJs, ExpressJs"
+        },
+        "role": {
+          "en": "FullStack Developer",
+          "es": "Desarrollador FullStack"
+        },
+        "idImg": "103LtFpNL57e2gG78yfSOWtG3FG_sD05-"
+      },
+      {
         "href": "https://tv.laruinarecords.cl",
         "repository": "https://github.com/GwerhDev/La-Ruina-TV-client",
         "name": "LA RUINA TV",
