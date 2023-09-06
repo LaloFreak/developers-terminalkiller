@@ -2,6 +2,24 @@
   {
     "web": [
       {
+        "href": "https://getexpert.netlify.app/",
+        "repository": "https://github.com/GwerhDev/GetExpert-Client",
+        "name": "GET EXPERT",
+        "description": {
+          "en": "Angular application for job oportunities",
+          "es": "Aplicación Angular para oportunidades de trabajo"
+        },
+        "technologies": {
+          "en": "Angular, ExpressJs",
+          "es": "Angular, ExpressJs"
+        },
+        "role": {
+          "en": "FullStack Developer",
+          "es": "Desarrollador FullStack"
+        },
+        "idImg": "10JNmy4D1pkmP3l1EDhBFOjJm2Szmhyxj"
+      },
+      {
         "href": "https://gwerhdev-vue-app.netlify.app/",
         "repository": "https://github.com/GwerhDev/VueApp-Client",
         "name": "VUE APP - PRUEBA TÉCNICA FRONT-END",
