@@ -93,7 +93,7 @@
       },
       {
         "href": "https://tv.laruinarecords.cl",
-        "repository": "https://github.com/GwerhDev/La-Ruina-TV-client",
+        "repository": "https://github.com/GwerhDev/LaRuinaTV-Client",
         "name": "LA RUINA TV",
         "description": {
           "en": "Multimedia Platform",
@@ -147,7 +147,7 @@
       },
       {
         "href": "https://merch.laruinarecords.cl",
-        "repository": "",
+        "repository": "https://github.com/GwerhDev/LaRuinaMerch-Client",
         "name": "LA RUINA MERCH",
         "description": {
           "en": "E-Commerce",
@@ -165,7 +165,7 @@
       },
       {
         "href": "https://studio.laruinarecords.cl",
-        "repository": "https://github.com/GwerhDev/LaRuinaRecords",
+        "repository": "https://github.com/GwerhDev/LaRuinaRecords-Client",
         "name": "LA RUINA RECORDS",
         "description": {
           "en": "Sound Services",
