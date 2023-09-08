@@ -11,7 +11,8 @@
         },
         "technologies": {
           "en": "Angular, ExpressJs",
-          "es": "Angular, ExpressJs"
+          "es": "Angular, ExpressJs",
+          "main": "Angular"
         },
         "role": {
           "en": "FullStack Developer",
@@ -29,7 +30,8 @@
         },
         "technologies": {
           "en": "VueJs, Pinia, Axios, Vite, Vitest, TypeScript",
-          "es": "VueJs, Pinia, Axios, Vite, Vitest, TypeScript"
+          "es": "VueJs, Pinia, Axios, Vite, Vitest, TypeScript",
+          "main": "Vue"
         },
         "role": {
           "en": "Front-End Developer, UI/UX Designer",
@@ -47,7 +49,8 @@
         },
         "technologies": {
           "en": "ThreeJs",
-          "es": "ThreeJs"
+          "es": "ThreeJs",
+          "main": "Three"
         },
         "role": {
           "en": "UI/UX Designer",
@@ -65,7 +68,8 @@
         },
         "technologies": {
           "en": "ReactJs, NodeJs, Python, TensorFlowJs",
-          "es": "ReactJs, NodeJs, Python, TensorFlowJs"
+          "es": "ReactJs, NodeJs, Python, TensorFlowJs",
+          "main": "React"
         },
         "role": {
           "en": "IA Training, Machine Learning, FullStack Developer, UI/UX Designer",
@@ -83,7 +87,8 @@
         },
         "technologies": {
           "en": "ReactJs, NodeJs, ExpressJs",
-          "es": "ReactJs, NodeJs, ExpressJs"
+          "es": "ReactJs, NodeJs, ExpressJs",
+          "main": "React"
         },
         "role": {
           "en": "FullStack Developer",
@@ -101,7 +106,8 @@
         },
         "technologies": {
           "en": "ReactJs, NodeJs, ExpressJs",
-          "es": "ReactJs, NodeJs, ExpressJs"
+          "es": "ReactJs, NodeJs, ExpressJs",
+          "main": "React"
         },
         "role": {
           "en": "FullStack Developer, UI/UX Designer",
@@ -119,7 +125,8 @@
         },
         "technologies": {
           "en": "ReactJs, NodeJs, ExpressJs",
-          "es": "ReactJs, NodeJs, ExpressJs"
+          "es": "ReactJs, NodeJs, ExpressJs",
+          "main": "React"
         },
         "role": {
           "en": "FullStack Developer, UI/UX Designer",
@@ -137,7 +144,8 @@
         },
         "technologies": {
           "en": "ReactJs, NodeJs",
-          "es": "ReactJs, NodeJs"
+          "es": "ReactJs, NodeJs",
+          "main": "React"
         },
         "role": {
           "en": "FullStack Developer, UI/UX Designer",
@@ -155,7 +163,8 @@
         },
         "technologies": {
           "en": "NextJs",
-          "es": "NextJs"
+          "es": "NextJs",
+          "main": "Next"
         },
         "role": {
           "en": "FullStack Developer",
@@ -173,7 +182,8 @@
         },
         "technologies": {
           "en": "ReactJs, NodeJs, ExpressJs",
-          "es": "ReactJs, NodeJs, ExpressJs"
+          "es": "ReactJs, NodeJs, ExpressJs",
+          "main": "React"
         },
         "role": {
           "en": "FullStack Developer, UI/UX Designer",
@@ -190,8 +200,9 @@
           "es": "Servicios de Sonido"
         },
         "technologies": {
-          "en": "NextJs, NodeJs",
-          "es": "NextJs, NodeJs"
+          "en": "ReactJs, NodeJs",
+          "es": "ReactJs, NodeJs",
+          "main": "React"
         },
         "role": {
           "en": "FullStack Developer, UI/UX Designer",
@@ -209,7 +220,8 @@
         },
         "technologies": {
           "en": "ReactJs, NodeJs, ExpressJs",
-          "es": "ReactJs, NodeJs, ExpressJs"
+          "es": "ReactJs, NodeJs, ExpressJs",
+          "main": "React"
         },
         "role": {
           "en": "FullStack Developer, UI/UX Designer",
@@ -231,7 +243,8 @@
         },
         "technologies": {
           "en": "ReactJs, NodeJs, ExpressJs, ElectronJs",
-          "es": "ReactJs, NodeJs, ExpressJs, ElectronJs"
+          "es": "ReactJs, NodeJs, ExpressJs, ElectronJs",
+          "main": "Electron"
         },
         "role": {
           "en": "FullStack Developer, UI/UX Designer",
@@ -248,8 +261,9 @@
           "es": "Aplicación Interactiva - Versión de Escritorio"
         },
         "technologies": {
-          "en": "NextJs, NodeJs, ElectronJs",
-          "es": "NextJs, NodeJs, ElectronJs"
+          "en": "ReactJs, NodeJs, ElectronJs",
+          "es": "ReactJs, NodeJs, ElectronJs",
+          "main": "Electron"
         },
         "role": {
           "en": "FullStack Developer, UI/UX Designer",
@@ -271,7 +285,8 @@
         },
         "technologies": {
           "en": "React Native, NodeJs",
-          "es": "React Native, NodeJs"
+          "es": "React Native, NodeJs",
+          "main": "React Native"
         },
         "role": {
           "en": "FullStack Developer",
@@ -289,7 +304,8 @@
         },
         "technologies": {
           "en": "React Native, NodeJs",
-          "es": "React Native, NodeJs"
+          "es": "React Native, NodeJs",
+          "main": "React Native"
         },
         "role": {
           "en": "FullStack Developer, UI/UX Designer",
@@ -307,7 +323,8 @@
         },
         "technologies": {
           "en": "React Native, NodeJs",
-          "es": "React Native, NodeJs"
+          "es": "React Native, NodeJs",
+          "main": "React Native"
         },
         "role": {
           "en": "FullStack Developer, UI/UX Designer",
@@ -329,7 +346,8 @@
         },
         "technologies": {
           "en": "DiscordJs, NodeJs",
-          "es": "DiscordJs, NodeJs"
+          "es": "DiscordJs, NodeJs",
+          "main": "Node"
         },
         "role": {
           "en": "Developer",
@@ -347,7 +365,8 @@
         },
         "technologies": {
           "en": "Python, TensorFlow",
-          "es": "Python, TensorFlow"
+          "es": "Python, TensorFlow",
+          "main": "TensorFlow"
         },
         "role": {
           "en": "Developer",
@@ -364,8 +383,9 @@
           "es": "Software Smart Drone (Inteligencia Artificial)"
         },
         "technologies": {
-          "en": "Python, AI",
-          "es": "Python, IA"
+          "en": "Python, AI, TensorFlow",
+          "es": "Python, IA, TensorFlow",
+          "main": "TensorFlow"
         },
         "role": {
           "en": "Developer",
