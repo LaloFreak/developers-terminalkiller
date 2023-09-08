@@ -3,7 +3,11 @@
     "web": [
       {
         "href": "https://getexpert.netlify.app/",
-        "repository": "https://github.com/GwerhDev/GetExpert-Client",
+        "repository": {
+          "frontend": "https://github.com/GwerhDev/GetExpert-Client",
+          "backend": "https://github.com/GwerhDev/GetExpert-API",
+          "code": ""
+        },
         "name": "GET EXPERT",
         "description": {
           "en": "Angular application for job oportunities",
@@ -22,7 +26,11 @@
       },
       {
         "href": "https://gwerhdev-vue-app.netlify.app/",
-        "repository": "https://github.com/GwerhDev/VueApp-Client",
+        "repository": {
+          "frontend": "https://github.com/GwerhDev/VueApp-Client",
+          "backend": "",
+          "code": ""
+        },
         "name": "VUE APP - PRUEBA TÉCNICA FRONT-END",
         "description": {
           "en": "Technical test for Front-End job position",
@@ -41,7 +49,11 @@
       },
       {
         "href": "https://gwerhdev.github.io/Three-Template/",
-        "repository": "https://github.com/GwerhDev/Three-Template",
+        "repository": {
+          "frontend": "https://github.com/GwerhDev/Three-Template",
+          "backend": "",
+          "code": ""
+        },
         "name": "THREEJS 3D APP - TESTING CONTROLLERS",
         "description": {
           "en": "Test for controllers of my first 3D Application",
@@ -60,7 +72,11 @@
       },
       {
         "href": "https://terminalkiller.site/#/ai-testing",
-        "repository": "https://github.com/GwerhDev/ArtificialIntelligence-Client",
+        "repository": {
+          "frontend": "https://github.com/GwerhDev/ArtificialIntelligence-Client",
+          "backend": "https://github.com/GwerhDev/ArtificialIntelligence-API",
+          "code": ""
+        },
         "name": "ARTIFICIAL INTELLIGENCE APP - TESTING",
         "description": {
           "en": "Tests and training for my first AI Application",
@@ -79,7 +95,11 @@
       },
       {
         "href": "https://lu-roco-tattoo-studio.vercel.app/",
-        "repository": "https://github.com/GwerhDev/LuRocoTattooStudio-Client",
+        "repository": {
+          "frontend": "https://github.com/GwerhDev/LuRocoTattooStudio-Client",
+          "backend": "https://github.com/GwerhDev/LuRocoTattooStudio-API",
+          "code": ""
+        },
         "name": "LUROCO TATOO STUDIO",
         "description": {
           "en": "Tatoo Studio's webpage",
@@ -98,7 +118,11 @@
       },
       {
         "href": "https://play.laruinarecords.cl",
-        "repository": "https://github.com/GwerhDev/LaRuinaPlay-Client",
+        "repository": {
+          "frontend": "https://github.com/GwerhDev/LaRuinaPlay-Client",
+          "backend": "",
+          "code": ""
+        },
         "name": "LA RUINA PLAY",
         "description": {
           "en": "Multimedia Platform",
@@ -117,7 +141,11 @@
       },
       {
         "href": "https://tv.laruinarecords.cl",
-        "repository": "https://github.com/GwerhDev/LaRuinaTV-Client",
+        "repository": {
+          "frontend": "https://github.com/GwerhDev/LaRuinaTV-Client",
+          "backend": "https://github.com/GwerhDev/LaRuinaTV-API",
+          "code": ""
+        },
         "name": "LA RUINA TV",
         "description": {
           "en": "Multimedia Platform",
@@ -136,7 +164,11 @@
       },
       {
         "href": "http://worldofgwerh.terminalkiller.site",
-        "repository": "https://github.com/GwerhDev/World-of-Gwerh",
+        "repository": {
+          "frontend": "https://github.com/GwerhDev/World-of-Gwerh",
+          "backend": "",
+          "code": ""
+        },
         "name": "WORLD OF GWERH",
         "description": {
           "en": "Art & Entertainment",
@@ -155,7 +187,11 @@
       },
       {
         "href": "http://chathdp.terminalkiller.site/",
-        "repository": "https://github.com/GwerhDev/ChatHDP",
+        "repository": {
+          "frontend": "https://github.com/GwerhDev/ChatHDP",
+          "backend": "",
+          "code": ""
+        },
         "name": "CHAT-HDP",
         "description": {
           "en": "Meme clone for Chat-GPT",
@@ -174,7 +210,11 @@
       },
       {
         "href": "https://merch.laruinarecords.cl",
-        "repository": "https://github.com/GwerhDev/LaRuinaMerch-Client",
+        "repository": {
+          "frontend": "https://github.com/GwerhDev/LaRuinaMerch-Client",
+          "backend": "",
+          "code": ""
+        },
         "name": "LA RUINA MERCH",
         "description": {
           "en": "E-Commerce",
@@ -193,7 +233,11 @@
       },
       {
         "href": "https://studio.laruinarecords.cl",
-        "repository": "https://github.com/GwerhDev/LaRuinaRecords-Client",
+        "repository": {
+          "frontend": "https://github.com/GwerhDev/LaRuinaRecords-Client",
+          "backend": "",
+          "code": ""
+        },
         "name": "LA RUINA RECORDS",
         "description": {
           "en": "Sound Services",
@@ -212,7 +256,11 @@
       },
       {
         "href": "http://projects.terminalkiller.site",
-        "repository": "https://github.com/GwerhDev/Projects-TerminalKiller",
+        "repository": {
+          "frontend": "https://github.com/GwerhDev/Projects-TerminalKiller",
+          "backend": "",
+          "code": ""
+        },
         "name": "TERMINALKILLER PROJECTS",
         "description": {
           "en": "Cooperative Projects",
@@ -235,7 +283,11 @@
     "desktop":[
       {
         "href": "https://tv.laruinarecords.cl/#/download/desktop",
-        "repository": "",
+        "repository": {
+          "frontend": "",
+          "backend": "",
+          "code": ""
+        },
         "name": "LA RUINA TV",
         "description": {
           "en": "Multimedia Platform - Desktop Version",
@@ -254,7 +306,11 @@
       },
       {
         "href": "http://worldofgwerh.terminalkiller.site/#/adventures/gwerh-the-bard/download/desktop",
-        "repository":"",
+        "repository":{
+          "frontend": "",
+          "backend": "",
+          "code": ""
+        },
         "name": "GWERH, THE BARD",
         "description": {
           "en": "Interactive Application - Desktop Version",
@@ -277,7 +333,11 @@
     "mobile":[
       {
         "href": "https://terminalkiller.site/#/pawesomecare/download/mobile",
-        "repository": "https://github.com/TerminalKiller-Project/client-petapp",
+        "repository": {
+          "frontend": "https://github.com/TerminalKiller-Project/client-petapp",
+          "backend": "",
+          "code": ""
+        },
         "name": "PAWSOME CARE",
         "description": {
           "en": "Pet's Services",
@@ -296,7 +356,11 @@
       },
       {
         "href": "https://tv.laruinarecords.cl/#/download/mobile",
-        "repository": "",
+        "repository": {
+          "frontend": "",
+          "backend": "",
+          "code": ""
+        },
         "name": "LA RUINA TV",
         "description": {
           "en": "Multimedia Platform - Mobile Version",
@@ -315,8 +379,11 @@
       },
       {
         "href": "http://worldofgwerh.terminalkiller.site/#/adventures/gwerh-the-bard/download/mobile",
-        "repository": "",
-        "name": "GWERH, THE BARD",
+        "repository": {
+          "frontend": "",
+          "backend": "",
+          "code": ""
+        },        "name": "GWERH, THE BARD",
         "description": {
           "en": "Interactive Application - Mobile Version",
           "es": "Aplicación Interactiva - Versión Móvil"
@@ -338,7 +405,11 @@
     "software": [
       {
         "href": "https://github.com/GwerhDev/ArcanistaWoG-Bot",
-        "repository": "https://github.com/GwerhDev/ArcanistaWoG-Bot",
+        "repository": {
+          "frontend": "",
+          "backend": "",
+          "code": "https://github.com/GwerhDev/ArcanistaWoG-Bot"
+        },
         "name": "ARCANISTA BOT",
         "description": {
           "en": "Bot assistant for Discord's server of World of Gwerh project",
@@ -357,7 +428,11 @@
       },
       {
         "href": "https://github.com/GwerhDev/Traffic-Neural-Network",
-        "repository": "https://github.com/GwerhDev/Traffic-Neural-Network",
+        "repository": {
+          "frontend": "",
+          "backend": "",
+          "code": "https://github.com/GwerhDev/Traffic-Neural-Network"
+        },
         "name": "TRAFFIC NEURAL NETWORK",
         "description": {
           "en": "Neural Network Training (Artificial Intelligence)",
@@ -376,7 +451,11 @@
       },
       {
         "href": "https://github.com/GwerhDev/ArmaggeDroneSoftware",
-        "repository": "https://github.com/GwerhDev/ArmaggeDroneSoftware",
+        "repository": {
+          "frontend": "",
+          "backend": "",
+          "code": "https://github.com/GwerhDev/ArmaggeDroneSoftware"
+        },
         "name": "ARMAGGEDRONE",
         "description": {
           "en": "Software Smart Drone (Artificial Intelligence)",
