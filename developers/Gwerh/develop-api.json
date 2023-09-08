@@ -92,6 +92,24 @@
         "idImg": "103LtFpNL57e2gG78yfSOWtG3FG_sD05-"
       },
       {
+        "href": "https://play.laruinarecords.cl",
+        "repository": "https://github.com/GwerhDev/LaRuinaPlay-Client",
+        "name": "LA RUINA PLAY",
+        "description": {
+          "en": "Multimedia Platform",
+          "es": "Plataforma Multimedia"
+        },
+        "technologies": {
+          "en": "ReactJs, NodeJs, ExpressJs",
+          "es": "ReactJs, NodeJs, ExpressJs"
+        },
+        "role": {
+          "en": "FullStack Developer, UI/UX Designer",
+          "es": "Desarrollador FullStack, Diseñador UI/UX"
+        },
+        "idImg": ""
+      },
+      {
         "href": "https://tv.laruinarecords.cl",
         "repository": "https://github.com/GwerhDev/LaRuinaTV-Client",
         "name": "LA RUINA TV",
@@ -302,9 +320,9 @@
   {
     "software": [
       {
-        "href": "https://github.com/GwerhDev/EscuderoWoG-Bot",
-        "repository": "https://github.com/GwerhDev/EscuderoWoG-Bot",
-        "name": "ESCUDERO BOT",
+        "href": "https://github.com/GwerhDev/ArcanistaWoG-Bot",
+        "repository": "https://github.com/GwerhDev/ArcanistaWoG-Bot",
+        "name": "ARCANISTA BOT",
         "description": {
           "en": "Bot assistant for Discord's server of World of Gwerh project",
           "es": "Bot asistente para servidor de Discord para proyecto World of Gwerh"
