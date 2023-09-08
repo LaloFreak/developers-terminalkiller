@@ -222,7 +222,7 @@
   {
     "desktop":[
       {
-        "href": "https://tv.laruinarecords.cl/download/desktop",
+        "href": "https://tv.laruinarecords.cl/#/download/desktop",
         "repository": "",
         "name": "LA RUINA TV",
         "description": {
@@ -262,7 +262,7 @@
   {
     "mobile":[
       {
-        "href": "https://terminalkiller.site/pawesomecare/download/mobile",
+        "href": "https://terminalkiller.site/#/pawesomecare/download/mobile",
         "repository": "https://github.com/TerminalKiller-Project/client-petapp",
         "name": "PAWSOME CARE",
         "description": {
@@ -280,7 +280,7 @@
         "idImg": "10Qz-vlBkM-4pxjR_pqt8j6rl9SfOS9gi"
       },
       {
-        "href": "https://tv.laruinarecords.cl/download/mobile",
+        "href": "https://tv.laruinarecords.cl/#/download/mobile",
         "repository": "",
         "name": "LA RUINA TV",
         "description": {
