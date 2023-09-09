@@ -165,8 +165,8 @@
       {
         "href": "http://worldofgwerh.terminalkiller.site",
         "repository": {
-          "frontend": "https://github.com/GwerhDev/World-of-Gwerh",
-          "backend": "",
+          "frontend": "https://github.com/GwerhDev/WorldOfGwerh-Client",
+          "backend": "https://github.com/GwerhDev/WorldOfGwerh-API",
           "code": ""
         },
         "name": "WORLD OF GWERH",
