@@ -2,6 +2,29 @@
   {
     "web": [
       {
+        "href": "https://hub.laruinarecords.cl/",
+        "repository": {
+          "frontend": "https://github.com/GwerhDev/LaRuinaHub-Client",
+          "backend": "https://github.com/GwerhDev/LaRuinaHub-API",
+          "code": ""
+        },
+        "name": "LA RUINA HUB",
+        "description": {
+          "en": "Vue hub for La Ruina Records applications connected by an inner OAuth system",
+          "es": "Hub Vue para aplicaciones de La Ruina Records conectadas por un sistema de OAuth interno"
+        },
+        "technologies": {
+          "en": "Vue, ExpressJs",
+          "es": "Vue, ExpressJs",
+          "main": "Vue"
+        },
+        "role": {
+          "en": "FullStack Developer, UI/UX Designer",
+          "es": "Desarrollador FullStack, Diseñador UI/UX"
+        },
+        "idImg": "10a3xFdJdqI95ov9UFVHeEkGYZRuEAEGY"
+      },
+      {
         "href": "https://getexpert.netlify.app/",
         "repository": {
           "frontend": "https://github.com/GwerhDev/GetExpert-Client",
