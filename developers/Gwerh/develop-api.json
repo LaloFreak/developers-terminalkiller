@@ -2,6 +2,29 @@
   {
     "web": [
       {
+        "href": "https://tv.laruinarecords.cl",
+        "repository": {
+          "frontend": "https://github.com/GwerhDev/LaRuinaTV-Client",
+          "backend": "https://github.com/GwerhDev/LaRuinaTV-API",
+          "code": ""
+        },
+        "name": "LA RUINA TV",
+        "description": {
+          "en": "Multimedia Platform",
+          "es": "Plataforma Multimedia"
+        },
+        "technologies": {
+          "en": "ReactJs, NodeJs, ExpressJs",
+          "es": "ReactJs, NodeJs, ExpressJs",
+          "main": "React"
+        },
+        "role": {
+          "en": "FullStack Developer, UI/UX Designer",
+          "es": "Desarrollador FullStack, Diseñador UI/UX"
+        },
+        "idImg": "1WyQV_2EN83yPOC0dUQgFhPb8bzj-YxW_"
+      },
+      {
         "href": "https://hub.laruinarecords.cl/",
         "repository": {
           "frontend": "https://github.com/GwerhDev/LaRuinaHub-Client",
@@ -161,29 +184,6 @@
           "es": "Desarrollador FullStack, Diseñador UI/UX"
         },
         "idImg": ""
-      },
-      {
-        "href": "https://tv.laruinarecords.cl",
-        "repository": {
-          "frontend": "https://github.com/GwerhDev/LaRuinaTV-Client",
-          "backend": "https://github.com/GwerhDev/LaRuinaTV-API",
-          "code": ""
-        },
-        "name": "LA RUINA TV",
-        "description": {
-          "en": "Multimedia Platform",
-          "es": "Plataforma Multimedia"
-        },
-        "technologies": {
-          "en": "ReactJs, NodeJs, ExpressJs",
-          "es": "ReactJs, NodeJs, ExpressJs",
-          "main": "React"
-        },
-        "role": {
-          "en": "FullStack Developer, UI/UX Designer",
-          "es": "Desarrollador FullStack, Diseñador UI/UX"
-        },
-        "idImg": "1WyQV_2EN83yPOC0dUQgFhPb8bzj-YxW_"
       },
       {
         "href": "http://worldofgwerh.terminalkiller.site",
