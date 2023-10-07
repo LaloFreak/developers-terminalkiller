@@ -25,6 +25,29 @@
         "idImg": "1WyQV_2EN83yPOC0dUQgFhPb8bzj-YxW_"
       },
       {
+        "href": "https://play.laruinarecords.cl",
+        "repository": {
+          "frontend": "https://github.com/GwerhDev/LaRuinaPlay-Client",
+          "backend": "",
+          "code": ""
+        },
+        "name": "LA RUINA PLAY",
+        "description": {
+          "en": "Multimedia Platform",
+          "es": "Plataforma Multimedia"
+        },
+        "technologies": {
+          "en": "ReactJs, NodeJs, ExpressJs",
+          "es": "ReactJs, NodeJs, ExpressJs",
+          "main": "React"
+        },
+        "role": {
+          "en": "FullStack Developer, UI/UX Designer",
+          "es": "Desarrollador FullStack, Diseñador UI/UX"
+        },
+        "idImg": "10dwOa21DOe4jK_Tp4pFlPGPOE315N_gr"
+      },
+      {
         "href": "https://hub.laruinarecords.cl/",
         "repository": {
           "frontend": "https://github.com/GwerhDev/LaRuinaHub-Client",
@@ -161,29 +184,6 @@
           "es": "Desarrollador FullStack"
         },
         "idImg": "103LtFpNL57e2gG78yfSOWtG3FG_sD05-"
-      },
-      {
-        "href": "https://play.laruinarecords.cl",
-        "repository": {
-          "frontend": "https://github.com/GwerhDev/LaRuinaPlay-Client",
-          "backend": "",
-          "code": ""
-        },
-        "name": "LA RUINA PLAY",
-        "description": {
-          "en": "Multimedia Platform",
-          "es": "Plataforma Multimedia"
-        },
-        "technologies": {
-          "en": "ReactJs, NodeJs, ExpressJs",
-          "es": "ReactJs, NodeJs, ExpressJs",
-          "main": "React"
-        },
-        "role": {
-          "en": "FullStack Developer, UI/UX Designer",
-          "es": "Desarrollador FullStack, Diseñador UI/UX"
-        },
-        "idImg": ""
       },
       {
         "href": "http://worldofgwerh.terminalkiller.site",
