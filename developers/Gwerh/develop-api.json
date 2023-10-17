@@ -25,6 +25,29 @@
         "idImg": "1WyQV_2EN83yPOC0dUQgFhPb8bzj-YxW_"
       },
       {
+        "href": "https://gustavoeduca.netlify.app/",
+        "repository": {
+          "frontend": "https://github.com/GwerhDev/GustavoEduca-Client",
+          "backend": "https://github.com/GwerhDev/GustavoEduca-API",
+          "code": ""
+        },
+        "name": "GUSTAVO EDUCA",
+        "description": {
+          "en": "Educational Platform for Magister Gustavo Fernández courses",
+          "es": "Plataforma Educativa para cursos del Magister Gustavo Fernández"
+        },
+        "technologies": {
+          "en": "ReactJs, NodeJs, ExpressJs",
+          "es": "ReactJs, NodeJs, ExpressJs",
+          "main": "React"
+        },
+        "role": {
+          "en": "FullStack Developer, UI/UX Designer",
+          "es": "Desarrollador FullStack, Diseñador UI/UX"
+        },
+        "idImg": "10pIp6-7VHX5j4n3KmgYUEzEsnVFpVRtU"
+      },
+      {
         "href": "https://play.laruinarecords.cl",
         "repository": {
           "frontend": "https://github.com/GwerhDev/LaRuinaPlay-Client",
