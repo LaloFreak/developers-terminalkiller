@@ -1,10 +1,12 @@
-# fly.toml app configuration file generated for developers-terminalkiller on 2023-06-01T02:44:57-04:00
+# fly.toml app configuration file generated for developers-terminalkiller on 2023-11-15T10:31:06-03:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
 app = "developers-terminalkiller"
 primary_region = "scl"
+
+[build]
 
 [env]
   PORT = "8080"
