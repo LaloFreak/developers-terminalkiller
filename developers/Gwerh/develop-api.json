@@ -2,7 +2,7 @@
   {
     "web": [
       {
-        "href": "https://tv.laruinarecords.cl",
+        "href": "https://tv.laruina.cl",
         "repository": {
           "frontend": "https://github.com/GwerhDev/LaRuinaTV-Client",
           "backend": "https://github.com/GwerhDev/LaRuinaTV-API",
@@ -71,7 +71,7 @@
         "idImg": "10pIp6-7VHX5j4n3KmgYUEzEsnVFpVRtU"
       },
       {
-        "href": "https://play.laruinarecords.cl",
+        "href": "https://play.laruina.cl",
         "repository": {
           "frontend": "https://github.com/GwerhDev/LaRuinaPlay-Client",
           "backend": "",
@@ -94,7 +94,7 @@
         "idImg": "10dwOa21DOe4jK_Tp4pFlPGPOE315N_gr"
       },
       {
-        "href": "https://hub.laruinarecords.cl/",
+        "href": "https://hub.laruina.cl/",
         "repository": {
           "frontend": "https://github.com/GwerhDev/LaRuinaHub-Client",
           "backend": "https://github.com/GwerhDev/LaRuinaHub-API",
@@ -278,7 +278,7 @@
         "idImg": "1-gmnUAxqTw1qWGun-XksPZ_U2qvyzl3I"
       },
       {
-        "href": "https://merch.laruinarecords.cl",
+        "href": "https://merch.laruina.cl",
         "repository": {
           "frontend": "https://github.com/GwerhDev/LaRuinaMerch-Client",
           "backend": "",
@@ -301,9 +301,9 @@
         "idImg": ""
       },
       {
-        "href": "https://studio.laruinarecords.cl",
+        "href": "https://studio.laruina.cl",
         "repository": {
-          "frontend": "https://github.com/GwerhDev/LaRuinaRecords-Client",
+          "frontend": "https://github.com/GwerhDev/laruina-Client",
           "backend": "",
           "code": ""
         },
@@ -351,7 +351,7 @@
   {
     "desktop":[
       {
-        "href": "https://tv.laruinarecords.cl/#/download/desktop",
+        "href": "https://tv.laruina.cl/#/download/desktop",
         "repository": {
           "frontend": "",
           "backend": "",
@@ -424,7 +424,7 @@
         "idImg": "10Qz-vlBkM-4pxjR_pqt8j6rl9SfOS9gi"
       },
       {
-        "href": "https://tv.laruinarecords.cl/#/download/mobile",
+        "href": "https://tv.laruina.cl/#/download/mobile",
         "repository": {
           "frontend": "",
           "backend": "",
