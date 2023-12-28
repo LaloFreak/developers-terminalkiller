@@ -1,6 +1,5 @@
 const axios = require('axios');
 const { GITHUB_ACCESS_TOKEN_GWERH } = require('../config');
-const { getGithubProfile } = require('../integrations/github');
 const router = require('express').Router();
 
 router.get('/:username/lasts', async (req, res) => {
