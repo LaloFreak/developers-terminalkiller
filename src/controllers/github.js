@@ -1,5 +1,5 @@
-const axios = require('axios');
 const { GITHUB_ACCESS_TOKEN_GWERH } = require('../config');
+const { getGithubRepos } = require('../integrations/github');
 const router = require('express').Router();
 
 router.get('/:username/lasts', async (req, res) => {
@@ -10,11 +10,7 @@ router.get('/:username/lasts', async (req, res) => {
       token = GITHUB_ACCESS_TOKEN_GWERH
     };
 
-    const repositories = await axios.get(`https://api.github.com/users/${username}/repos`, {
-      headers: {
-        Authorization: `token ${token}`,
-      }
-    });
+    const repositories = await getGithubRepos(username, token);
 
     const response = repositories.data.map(repo => {
       return {

@@ -1,8 +1,15 @@
-const github = require('github-profile');
+const axios = require('axios');
 
-const getGithubProfile = async(username) => {
+const getGithubRepos = async(username, token) => {
+  const repositories = await axios.get(`https://api.github.com/users/${username}/repos`, {
+    headers: {
+      Authorization: `token ${token}`,
+    }
+  });
+
+  return repositories;
 }
 
 module.exports = {
-  getGithubProfile,
+  getGithubRepos,
 }
