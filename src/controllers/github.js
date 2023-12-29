@@ -25,6 +25,11 @@ router.get('/:username/lasts', async (req, res) => {
         lastUpdated: new Date(repo.pushed_at),
         href: repo.homepage,
         repoUrl: repo.html_url,
+        owner: {
+          name: repo.owner.login,
+          avatarUrl: repo.owner.avatar_url,
+          url: repo.owner.html_url,
+        },
       }
     });
 
