@@ -2,6 +2,7 @@
   {
     "web": [
       {
+        "published": true,
         "href": "https://tv.laruina.cl",
         "repository": {
           "frontend": "https://github.com/GwerhDev/LaRuinaTV-Client",
@@ -25,6 +26,7 @@
         "idImg": "636264591/2cfa1046-050b-4d02-ba08-c4a9a97a44a8"
       },
       {
+        "published": true,
         "href": "https://amplificadoresmatayas.com",
         "repository": {
           "frontend": "https://github.com/GwerhDev/Matayas-Client",
@@ -48,6 +50,7 @@
         "idImg": "708802766/b198fbd5-2af4-4d87-924c-25765043b1dd"
       },
       {
+        "published": true,
         "href": "https://gustavoeduca.netlify.app/",
         "repository": {
           "frontend": "https://github.com/GwerhDev/GustavoEduca-Client",
@@ -71,6 +74,7 @@
         "idImg": "702536421/a6e3bf9c-4fbf-49a8-99f8-06d1d4d30e8a"
       },
       {
+        "published": true,
         "href": "https://play.laruina.cl",
         "repository": {
           "frontend": "https://github.com/GwerhDev/LaRuinaPlay-Client",
@@ -94,6 +98,7 @@
         "idImg": "688462250/08e8bf46-d070-4f2e-92e1-6c43e4455e2e"
       },
       {
+        "published": true,
         "href": "https://hub.laruina.cl/",
         "repository": {
           "frontend": "https://github.com/GwerhDev/LaRuinaHub-Client",
@@ -117,6 +122,7 @@
         "idImg": "691566641/3d7f7758-3e76-4f49-a696-a1c349706d68"
       },
       {
+        "published": true,
         "href": "https://getexpert.netlify.app/",
         "repository": {
           "frontend": "https://github.com/GwerhDev/GetExpert-Client",
@@ -140,6 +146,7 @@
         "idImg": "688132883/e7e81aa0-de54-4c62-81d1-27964a59e269"
       },
       {
+        "published": true,
         "href": "https://gwerhdev-vue-app.netlify.app/",
         "repository": {
           "frontend": "https://github.com/GwerhDev/VueApp-Client",
@@ -163,6 +170,7 @@
         "idImg": "682674713/4e777d66-3402-4ad2-b908-b7aad5ecf505"
       },
       {
+        "published": true,
         "href": "https://gwerhdev.github.io/Three-Template/",
         "repository": {
           "frontend": "https://github.com/GwerhDev/Three-Template",
@@ -186,6 +194,7 @@
         "idImg": "643755767/d1b38c0c-4811-4a11-8ff5-4766e215e210"
       },
       {
+        "published": true,
         "href": "https://terminalkiller.netlify.app/#/ai-testing",
         "repository": {
           "frontend": "https://github.com/GwerhDev/ArtificialIntelligence-Client",
@@ -209,6 +218,7 @@
         "idImg": "637593876/d4a1e612-7c03-4e5d-8f29-1c1f073c4bbf"
       },
       {
+        "published": true,
         "href": "https://lu-roco-tattoo-studio.vercel.app/",
         "repository": {
           "frontend": "https://github.com/GwerhDev/LuRocoTattooStudio-Client",
@@ -232,6 +242,7 @@
         "idImg": "645609828/0041c2dd-ff1c-4d14-a685-1dde11ba820a"
       },
       {
+        "published": true,
         "href": "http://worldofgwerh.netlify.app/",
         "repository": {
           "frontend": "https://github.com/GwerhDev/WorldOfGwerh-Client",
@@ -255,6 +266,7 @@
         "idImg": "633933924/c5112fe3-0c21-4618-835b-9e5ef28aec5e"
       },
       {
+        "published": false,
         "href": "http://chathdp.netlify.app/",
         "repository": {
           "frontend": "https://github.com/GwerhDev/ChatHDP",
@@ -278,6 +290,7 @@
         "idImg": "636771050/ba1ca08a-32ab-4456-a966-15502e82e6c7"
       },
       {
+        "published": false,
         "href": "https://merch.laruina.cl",
         "repository": {
           "frontend": "https://github.com/GwerhDev/LaRuinaMerch-Client",
@@ -301,6 +314,7 @@
         "idImg": ""
       },
       {
+        "published": false,
         "href": "https://records.laruina.cl",
         "repository": {
           "frontend": "https://github.com/GwerhDev/laruina-Client",
@@ -324,6 +338,7 @@
         "idImg": ""
       },
       {
+        "published": true,
         "href": "http://projects-terminalkiller.netlify.app/",
         "repository": {
           "frontend": "https://github.com/GwerhDev/Projects-TerminalKiller",
@@ -351,6 +366,7 @@
   {
     "desktop":[
       {
+        "published": true,
         "href": "https://tv.laruina.cl/#/download/desktop",
         "repository": {
           "frontend": "",
@@ -374,6 +390,7 @@
         "idImg": "636264591/2cfa1046-050b-4d02-ba08-c4a9a97a44a8"
       },
       {
+        "published": true,
         "href": "http://worldofgwerh.netlify.app/#/adventures/gwerh-the-bard/download/desktop",
         "repository":{
           "frontend": "",
@@ -401,6 +418,7 @@
   {
     "mobile":[
       {
+        "published": true,
         "href": "https://terminalkiller.netlify.app/#/pawesomecare/download/mobile",
         "repository": {
           "frontend": "https://github.com/TerminalKiller-Project/client-petapp",
@@ -424,6 +442,7 @@
         "idImg": "613601823/7e362af4-87b8-4386-b8ae-5524641e791f"
       },
       {
+        "published": false,
         "href": "https://tv.laruina.cl/#/download/mobile",
         "repository": {
           "frontend": "",
@@ -447,6 +466,7 @@
         "idImg": "636264591/2cfa1046-050b-4d02-ba08-c4a9a97a44a8"
       },
       {
+        "published": false,
         "href": "http://worldofgwerh.netlify.app/#/adventures/gwerh-the-bard/download/mobile",
         "repository": {
           "frontend": "",
@@ -473,6 +493,7 @@
   {
     "software": [
       {
+        "published": true,
         "href": "https://github.com/GwerhDev/ArcanistaWoG-Bot",
         "repository": {
           "frontend": "",
@@ -496,6 +517,7 @@
         "idImg": "562370198/047bf2c4-9f72-4d92-8b13-07591c0481fe"
       },
       {
+        "published": true,
         "href": "https://github.com/GwerhDev/Traffic-Neural-Network",
         "repository": {
           "frontend": "",
@@ -519,6 +541,7 @@
         "idImg": "636396781/049ae177-68f9-489f-be2e-6da3133b4f83"
       },
       {
+        "published": false,
         "href": "https://github.com/GwerhDev/ArmaggeDroneSoftware",
         "repository": {
           "frontend": "",
