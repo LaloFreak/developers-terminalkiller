@@ -494,7 +494,7 @@
     "software": [
       {
         "published": true,
-        "download": "MPK-ResourcesExtractor.exe",
+        "download": "mkpre-installer.exe",
         "href": "",
         "repository": {
           "frontend": "",
