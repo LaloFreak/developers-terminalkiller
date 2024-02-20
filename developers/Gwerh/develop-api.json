@@ -146,7 +146,7 @@
         "idImg": "688132883/e7e81aa0-de54-4c62-81d1-27964a59e269"
       },
       {
-        "published": true,
+        "published": false,
         "href": "https://gwerhdev-vue-app.netlify.app/",
         "repository": {
           "frontend": "https://github.com/GwerhDev/VueApp-Client",
