@@ -494,8 +494,8 @@
     "software": [
       {
         "published": true,
-        "download": "",
-        "href": "https://github.com/GwerhDev/MPK-ResourcesExtractor",
+        "download": "MPK-ResourcesExtractor.exe",
+        "href": "",
         "repository": {
           "frontend": "",
           "backend": "",
