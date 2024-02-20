@@ -494,6 +494,32 @@
     "software": [
       {
         "published": true,
+        "download": "",
+        "href": "https://github.com/GwerhDev/MPK-ResourcesExtractor",
+        "repository": {
+          "frontend": "",
+          "backend": "",
+          "code": "https://github.com/GwerhDev/MPK-ResourcesExtractor"
+        },
+        "name": "MPK RESOURCES EXTRACTOR",
+        "description": {
+          "en": "This software extracts the .mpkinfo files and saves them in the [results] directory, which opens upon completion.",
+          "es": "Este software extrae los archivos .mpkinfo y los guarda en el diretorio [results], el cual se abre una vez finalizado."
+        },
+        "technologies": {
+          "en": "Python",
+          "es": "Python",
+          "main": "Python"
+        },
+        "role": {
+          "en": "Developer",
+          "es": "Desarrollador"
+        },
+        "idImg": ""
+      },
+      {
+        "published": true,
+        "download": null,
         "href": "https://github.com/GwerhDev/ArcanistaWoG-Bot",
         "repository": {
           "frontend": "",
@@ -518,6 +544,7 @@
       },
       {
         "published": true,
+        "download": null,
         "href": "https://github.com/GwerhDev/Traffic-Neural-Network",
         "repository": {
           "frontend": "",
@@ -542,6 +569,7 @@
       },
       {
         "published": false,
+        "download": null,
         "href": "https://github.com/GwerhDev/ArmaggeDroneSoftware",
         "repository": {
           "frontend": "",
