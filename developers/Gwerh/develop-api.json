@@ -60,7 +60,7 @@
         "name": "GUSTAVO EDUCA",
         "description": {
           "en": "Educational Platform for Magister Gustavo Fernández courses",
-          "es": "Plataforma Educativa para cursos del Magister Gustavo Fernández"
+          "es": "Plataforma Educativa para cursos de Magister Gustavo Fernández"
         },
         "technologies": {
           "en": "ReactJs, NodeJs, ExpressJs",
