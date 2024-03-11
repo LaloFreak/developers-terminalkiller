@@ -7,7 +7,7 @@
         "repository": {
           "frontend": "https://github.com/GwerhDev/Shadowgardians-Client",
           "backend": "https://github.com/GwerhDev/Shadowgardians-API",
-          "code": "735921185/53b47368-5867-432f-88c3-0d860152625a"
+          "code": ""
         },
         "name": "SHADOWGARDIANS",
         "description": {
@@ -23,7 +23,7 @@
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
         },
-        "idImg": ""
+        "idImg": "735921185/53b47368-5867-432f-88c3-0d860152625a"
       },
       {
         "published": true,
