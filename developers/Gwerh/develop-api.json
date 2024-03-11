@@ -3,6 +3,30 @@
     "web": [
       {
         "published": true,
+        "href": "https://shadowgardians.netlify.app",
+        "repository": {
+          "frontend": "https://github.com/GwerhDev/Shadowgardians-Client",
+          "backend": "https://github.com/GwerhDev/Shadowgardians-API",
+          "code": "735921185/53b47368-5867-432f-88c3-0d860152625a"
+        },
+        "name": "SHADOWGARDIANS",
+        "description": {
+          "en": "Companion app for 'Diablo Immortal' e-sport clan",
+          "es": "Aplicación complementaria para clan e-sport 'Diablo Immortal'"
+        },
+        "technologies": {
+          "en": "VueJs, NodeJs, ExpressJs",
+          "es": "ReactJs, NodeJs, ExpressJs",
+          "main": "Vue"
+        },
+        "role": {
+          "en": "FullStack Developer, UI/UX Designer",
+          "es": "Desarrollador FullStack, Diseñador UI/UX"
+        },
+        "idImg": ""
+      },
+      {
+        "published": true,
         "href": "https://tv.laruina.cl",
         "repository": {
           "frontend": "https://github.com/GwerhDev/LaRuinaTV-Client",
@@ -47,7 +71,7 @@
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
         },
-        "idImg": "708802766/b198fbd5-2af4-4d87-924c-25765043b1dd"
+        "idImg": "708802766/9dc19d51-7144-4c67-945d-c10de1acfbd5"
       },
       {
         "published": true,
@@ -111,8 +135,8 @@
           "es": "Hub Vue para aplicaciones de La Ruina Records conectadas por un sistema de OAuth interno"
         },
         "technologies": {
-          "en": "Vue, ExpressJs",
-          "es": "Vue, ExpressJs",
+          "en": "VueJs, ExpressJs",
+          "es": "VueJs, ExpressJs",
           "main": "Vue"
         },
         "role": {
