@@ -242,7 +242,7 @@
         "idImg": "637593876/d4a1e612-7c03-4e5d-8f29-1c1f073c4bbf"
       },
       {
-        "published": true,
+        "published": false,
         "href": "https://lu-roco-tattoo-studio.vercel.app/",
         "repository": {
           "frontend": "https://github.com/GwerhDev/LuRocoTattooStudio-Client",
