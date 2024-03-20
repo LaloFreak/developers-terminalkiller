@@ -16,7 +16,7 @@
         },
         "technologies": {
           "en": "VueJs, NodeJs, ExpressJs",
-          "es": "ReactJs, NodeJs, ExpressJs",
+          "es": "VueJs, NodeJs, ExpressJs",
           "main": "Vue"
         },
         "role": {
@@ -74,7 +74,7 @@
         "idImg": "708802766/9dc19d51-7144-4c67-945d-c10de1acfbd5"
       },
       {
-        "published": true,
+        "published": false,
         "href": "https://gustavoeduca.netlify.app/",
         "repository": {
           "frontend": "https://github.com/GwerhDev/GustavoEduca-Client",
