@@ -23,7 +23,7 @@
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
         },
-        "idImg": "735921185/53b47368-5867-432f-88c3-0d860152625a"
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/shadowgardians-img.png"
       },
       {
         "published": true,
@@ -47,7 +47,7 @@
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
         },
-        "idImg": "636264591/2cfa1046-050b-4d02-ba08-c4a9a97a44a8"
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/laruinatv-img.png"
       },
       {
         "published": true,
@@ -71,7 +71,7 @@
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
         },
-        "idImg": "708802766/9dc19d51-7144-4c67-945d-c10de1acfbd5"
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/amplificadoresmatayas-img.png"
       },
       {
         "published": false,
@@ -95,7 +95,7 @@
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
         },
-        "idImg": "702536421/a6e3bf9c-4fbf-49a8-99f8-06d1d4d30e8a"
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/GustavoEduca-img.png"
       },
       {
         "published": true,
@@ -119,7 +119,7 @@
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
         },
-        "idImg": "688462250/08e8bf46-d070-4f2e-92e1-6c43e4455e2e"
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/laruinaplay-img.png"
       },
       {
         "published": true,
@@ -143,7 +143,7 @@
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
         },
-        "idImg": "691566641/3d7f7758-3e76-4f49-a696-a1c349706d68"
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/latuinahub-img.png"
       },
       {
         "published": true,
@@ -167,7 +167,7 @@
           "en": "FullStack Developer",
           "es": "Desarrollador FullStack"
         },
-        "idImg": "688132883/e7e81aa0-de54-4c62-81d1-27964a59e269"
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/getexpert-img.png"
       },
       {
         "published": false,
@@ -191,7 +191,7 @@
           "en": "Front-End Developer, UI/UX Designer",
           "es": "Desarrollador Front-End, Diseñador UI/UX"
         },
-        "idImg": "682674713/4e777d66-3402-4ad2-b908-b7aad5ecf505"
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/vue-app-img.png"
       },
       {
         "published": true,
@@ -215,7 +215,7 @@
           "en": "UI/UX Designer",
           "es": "Diseñador UI/UX"
         },
-        "idImg": "643755767/d1b38c0c-4811-4a11-8ff5-4766e215e210"
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/threejs-img.png"
       },
       {
         "published": true,
@@ -239,7 +239,7 @@
           "en": "IA Training, Machine Learning, FullStack Developer, UI/UX Designer",
           "es": "Entrenamiento IA, Machine Learning, Desarrollador FullStack, Diseñador UI/UX"
         },
-        "idImg": "637593876/d4a1e612-7c03-4e5d-8f29-1c1f073c4bbf"
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/ia-testing-img.png"
       },
       {
         "published": false,
@@ -263,7 +263,7 @@
           "en": "FullStack Developer",
           "es": "Desarrollador FullStack"
         },
-        "idImg": "645609828/0041c2dd-ff1c-4d14-a685-1dde11ba820a"
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/lurocotattoostudio-img.png"
       },
       {
         "published": true,
@@ -287,7 +287,7 @@
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
         },
-        "idImg": "633933924/c5112fe3-0c21-4618-835b-9e5ef28aec5e"
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/wog-img.png"
       },
       {
         "published": false,
@@ -311,7 +311,7 @@
           "en": "FullStack Developer",
           "es": "Desarrollador FullStack"
         },
-        "idImg": "636771050/ba1ca08a-32ab-4456-a966-15502e82e6c7"
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/chathdp-img.png"
       },
       {
         "published": false,
@@ -335,7 +335,7 @@
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
         },
-        "idImg": ""
+        "img": ""
       },
       {
         "published": false,
@@ -359,7 +359,7 @@
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
         },
-        "idImg": ""
+        "img": ""
       },
       {
         "published": true,
@@ -383,7 +383,7 @@
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
         },
-        "idImg": "635983017/196e4794-960c-4612-92ff-0620107ad7a0"
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/terminalkiller-projects-img.png"
       }  
     ]
   },
@@ -411,7 +411,7 @@
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
         },
-        "idImg": "636264591/2cfa1046-050b-4d02-ba08-c4a9a97a44a8"
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/laruinatv-desktop-img.png"
       },
       {
         "published": true,
@@ -435,7 +435,7 @@
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
         },
-        "idImg": "633933924/c5112fe3-0c21-4618-835b-9e5ef28aec5e"
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/gtb-app-img.png"
       }
     ]
   },
@@ -463,7 +463,7 @@
           "en": "FullStack Developer",
           "es": "Desarrollador FullStack"
         },
-        "idImg": "613601823/7e362af4-87b8-4386-b8ae-5524641e791f"
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/pawsomecare-img.png"
       },
       {
         "published": false,
@@ -487,7 +487,7 @@
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
         },
-        "idImg": "636264591/2cfa1046-050b-4d02-ba08-c4a9a97a44a8"
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/laruinatv-mobile-img.png"
       },
       {
         "published": false,
@@ -510,7 +510,7 @@
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
         },
-        "idImg": "633933924/c5112fe3-0c21-4618-835b-9e5ef28aec5e"
+        "img": ""
       }
     ]
   },
@@ -539,7 +539,7 @@
           "en": "Developer",
           "es": "Desarrollador"
         },
-        "idImg": ""
+        "img": ""
       },
       {
         "published": true,
@@ -564,7 +564,7 @@
           "en": "Developer",
           "es": "Desarrollador"
         },
-        "idImg": "562370198/047bf2c4-9f72-4d92-8b13-07591c0481fe"
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/escuderobot-img.png"
       },
       {
         "published": true,
@@ -589,7 +589,7 @@
           "en": "Developer",
           "es": "Desarrollador"
         },
-        "idImg": "636396781/049ae177-68f9-489f-be2e-6da3133b4f83"
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/neural-network.png"
       },
       {
         "published": false,
@@ -614,7 +614,7 @@
           "en": "Developer",
           "es": "Desarrollador"
         },
-        "idImg": ""
+        "img": ""
       }
     ]
   }
