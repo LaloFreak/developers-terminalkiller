@@ -1,10 +1,10 @@
 {
-  "ThreeD": [
+  "threeD": [
     {
-      "url": "https://drive.google.com/file/d/10FGb6jCTsVtn3k7OTI8TkVf0N7XDQc2a/view?usp=sharing"
+      "url": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/model3D/1.obj"
     },
     {
-      "url": "https://drive.google.com/file/d/109MaCOkc4uCBkWwFZlxl74dvlQxP09Hf/view?usp=sharing"
+      "url": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/model3D/2.obj"
     }
   ]
 }
