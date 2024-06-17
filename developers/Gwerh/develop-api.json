@@ -3,6 +3,30 @@
     "web": [
       {
         "published": true,
+        "href": "https://terralegal.cl",
+        "repository": {
+          "frontend": "https://github.com/GwerhDev/TerraLegal-Client",
+          "backend": "https://github.com/GwerhDev/TerraLegal-API",
+          "code": ""
+        },
+        "name": "TERRALEGAL",
+        "description": {
+          "en": "Web application for TerraLegal professional company. It has an administrator account with access to an administration dashboard to create content for land for sale.",
+          "es": "Aplicación web para para empresa de profesionales TerraLegal. Cuenta con cuenta de administrador con acceso a panel de administración para crear contenido de terrenos en venta."
+        },
+        "technologies": {
+          "en": "ReactJs, NodeJs, ExpressJs",
+          "es": "ReactJs, NodeJs, ExpressJs",
+          "main": "React"
+        },
+        "role": {
+          "en": "FullStack Developer, UI/UX Designer",
+          "es": "Desarrollador FullStack, Diseñador UI/UX"
+        },
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/terralegal.jpg"
+      },
+      {
+        "published": true,
         "href": "https://shadowgardians.netlify.app",
         "repository": {
           "frontend": "https://github.com/GwerhDev/Shadowgardians-Client",
