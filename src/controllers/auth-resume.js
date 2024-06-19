@@ -30,7 +30,7 @@ router.get('/google/login/success', async(req,res) => {
     if (existingUser) {
       existingUser.token = accessToken;
       await existingUser.save();
-      return res.status(200).redirect(`${CLIENT_URL_GWERH}/#/resume/auth?token=${accessToken}`)
+      return res.status(200).redirect(`${CLIENT_URL_GWERH}/resume/auth?token=${accessToken}`)
     }
     const userData = {
       alias: user.name,
@@ -42,7 +42,7 @@ router.get('/google/login/success', async(req,res) => {
     }
     const newUser = new userSchema(userData);
     await newUser.save()
-    return res.status(200).redirect(`${CLIENT_URL_GWERH}/#/resume/auth?token=${accessToken}`)
+    return res.status(200).redirect(`${CLIENT_URL_GWERH}/resume/auth?token=${accessToken}`)
 
   } catch (error) {
     return res.status(500).json({error: error.message})
