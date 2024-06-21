@@ -1,0 +1,74 @@
+[
+  {
+    "published": true,
+    "href": "https://shadowgardians.netlify.app",
+    "repository": {
+      "frontend": "https://github.com/GwerhDev/Shadowgardians-Client",
+      "backend": "https://github.com/GwerhDev/Shadowgardians-API",
+      "code": ""
+    },
+    "name": "SHADOWGARDIANS",
+    "description": {
+      "en": "Companion app for 'Diablo Immortal' e-sport clan",
+      "es": "Aplicación complementaria para clan e-sport 'Diablo Immortal'"
+    },
+    "technologies": {
+      "en": "VueJs, NodeJs, ExpressJs",
+      "es": "VueJs, NodeJs, ExpressJs",
+      "main": "Vue"
+    },
+    "role": {
+      "en": "FullStack Developer, UI/UX Designer",
+      "es": "Desarrollador FullStack, Diseñador UI/UX"
+    },
+    "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/shadowgardians-img.png"
+  },
+  {
+    "published": true,
+    "href": "https://tv.laruina.cl",
+    "repository": {
+      "frontend": "https://github.com/GwerhDev/LaRuinaTV-Client",
+      "backend": "https://github.com/GwerhDev/LaRuinaTV-API",
+      "code": ""
+    },
+    "name": "LA RUINA TV",
+    "description": {
+      "en": "Multimedia Platform",
+      "es": "Plataforma Multimedia"
+    },
+    "technologies": {
+      "en": "ReactJs, NodeJs, ExpressJs",
+      "es": "ReactJs, NodeJs, ExpressJs",
+      "main": "React"
+    },
+    "role": {
+      "en": "FullStack Developer, UI/UX Designer",
+      "es": "Desarrollador FullStack, Diseñador UI/UX"
+    },
+    "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/laruinatv-img.png"
+  },
+  {
+    "published": true,
+    "href": "https://terminalkiller.netlify.app/ai-testing",
+    "repository": {
+      "frontend": "https://github.com/GwerhDev/ArtificialIntelligence-Client",
+      "backend": "https://github.com/GwerhDev/ArtificialIntelligence-API",
+      "code": ""
+    },
+    "name": "ARTIFICIAL INTELLIGENCE APP - TESTING",
+    "description": {
+      "en": "Tests and training for my first AI Application",
+      "es": "Pruebas y entrenamiento para mi primera Aplicación IA"
+    },
+    "technologies": {
+      "en": "ReactJs, NodeJs, Python, TensorFlowJs",
+      "es": "ReactJs, NodeJs, Python, TensorFlowJs",
+      "main": "React"
+    },
+    "role": {
+      "en": "IA Training, Machine Learning, FullStack Developer, UI/UX Designer",
+      "es": "Entrenamiento IA, Machine Learning, Desarrollador FullStack, Diseñador UI/UX"
+    },
+    "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/ia-testing-img.png"
+  }
+]
