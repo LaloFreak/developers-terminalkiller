@@ -23,7 +23,10 @@
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
         },
-        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/terralegal.jpg"
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/terralegal.jpg",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/terralegal.jpg"
+        ]
       },
       {
         "published": true,
@@ -47,7 +50,10 @@
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
         },
-        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/shadowgardians-img.png"
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/shadowgardians-img.png",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/shadowgardians-img.png"
+        ]
       },
       {
         "published": true,
@@ -71,7 +77,10 @@
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
         },
-        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/laruinatv-img.png"
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/laruinatv-img.png",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/laruinatv-img.png"
+        ]
       },
       {
         "published": true,
@@ -95,7 +104,10 @@
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
         },
-        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/amplificadoresmatayas-img.png"
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/amplificadoresmatayas-img.png",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/amplificadoresmatayas-img.png"
+        ]
       },
       {
         "published": false,
@@ -119,7 +131,10 @@
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
         },
-        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/GustavoEduca-img.png"
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/GustavoEduca-img.png",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/GustavoEduca-img.png"
+        ]
       },
       {
         "published": true,
@@ -143,7 +158,10 @@
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
         },
-        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/laruinaplay-img.jpg"
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/laruinaplay-img.jpg",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/laruinaplay-img.jpg"
+        ]
       },
       {
         "published": true,
@@ -167,7 +185,10 @@
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
         },
-        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/latuinahub-img.png"
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/latuinahub-img.png",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/latuinahub-img.png"
+        ]
       },
       {
         "published": true,
@@ -191,7 +212,10 @@
           "en": "FullStack Developer",
           "es": "Desarrollador FullStack"
         },
-        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/getexpert-img.png"
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/getexpert-img.png",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/getexpert-img.png"
+        ]
       },
       {
         "published": false,
@@ -215,7 +239,10 @@
           "en": "Front-End Developer, UI/UX Designer",
           "es": "Desarrollador Front-End, Diseñador UI/UX"
         },
-        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/vue-app-img.png"
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/vue-app-img.png",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/vue-app-img.png"
+        ]
       },
       {
         "published": true,
@@ -239,7 +266,10 @@
           "en": "UI/UX Designer",
           "es": "Diseñador UI/UX"
         },
-        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/threejs-img.png"
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/threejs-img.png",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/threejs-img.png"
+        ]
       },
       {
         "published": true,
@@ -263,7 +293,10 @@
           "en": "IA Training, Machine Learning, FullStack Developer, UI/UX Designer",
           "es": "Entrenamiento IA, Machine Learning, Desarrollador FullStack, Diseñador UI/UX"
         },
-        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/ia-testing-img.png"
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/ia-testing-img.png",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/ia-testing-img.png"
+        ]
       },
       {
         "published": false,
@@ -287,7 +320,10 @@
           "en": "FullStack Developer",
           "es": "Desarrollador FullStack"
         },
-        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/lurocotattoostudio-img.png"
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/lurocotattoostudio-img.png",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/lurocotattoostudio-img.png"
+        ]
       },
       {
         "published": true,
@@ -311,7 +347,10 @@
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
         },
-        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/wog-img.png"
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/wog-img.png",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/wog-img.png"
+        ]
       },
       {
         "published": false,
@@ -335,7 +374,10 @@
           "en": "FullStack Developer",
           "es": "Desarrollador FullStack"
         },
-        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/chathdp-img.png"
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/chathdp-img.png",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/chathdp-img.png"
+        ]
       },
       {
         "published": false,
@@ -359,7 +401,10 @@
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
         },
-        "img": ""
+        "img": "",
+        "gallery": [
+          ""
+        ]
       },
       {
         "published": false,
@@ -383,7 +428,10 @@
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
         },
-        "img": ""
+        "img": "",
+        "gallery": [
+          ""
+        ]
       },
       {
         "published": true,
@@ -407,12 +455,15 @@
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
         },
-        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/terminalkiller-projects-img.png"
-      }  
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/terminalkiller-projects-img.png",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/terminalkiller-projects-img.png"
+        ]
+      }
     ]
   },
   {
-    "desktop":[
+    "desktop": [
       {
         "published": true,
         "href": "https://tv.laruina.cl/#/download/desktop",
@@ -435,12 +486,15 @@
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
         },
-        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/laruinatv-desktop-img.png"
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/laruinatv-desktop-img.png",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/laruinatv-desktop-img.png"
+        ]
       },
       {
         "published": true,
         "href": "http://worldofgwerh.netlify.app/#/adventures/gwerh-the-bard/download/desktop",
-        "repository":{
+        "repository": {
           "frontend": "",
           "backend": "",
           "code": ""
@@ -459,12 +513,15 @@
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
         },
-        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/gtb-app-img.png"
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/gtb-app-img.png",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/gtb-app-img.png"
+        ]
       }
     ]
   },
   {
-    "mobile":[
+    "mobile": [
       {
         "published": true,
         "href": "https://terminalkiller.netlify.app/#/pawesomecare/download/mobile",
@@ -487,7 +544,10 @@
           "en": "FullStack Developer",
           "es": "Desarrollador FullStack"
         },
-        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/pawsomecare-img.png"
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/pawsomecare-img.png",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/pawsomecare-img.png"
+        ]
       },
       {
         "published": false,
@@ -511,7 +571,10 @@
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
         },
-        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/laruinatv-mobile-img.png"
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/laruinatv-mobile-img.png",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/laruinatv-mobile-img.png"
+        ]
       },
       {
         "published": false,
@@ -520,7 +583,8 @@
           "frontend": "",
           "backend": "",
           "code": ""
-        },        "name": "GWERH, THE BARD",
+        },
+        "name": "GWERH, THE BARD",
         "description": {
           "en": "Interactive Application - Mobile Version",
           "es": "Aplicación Interactiva - Versión Móvil"
@@ -534,7 +598,10 @@
           "en": "FullStack Developer, UI/UX Designer",
           "es": "Desarrollador FullStack, Diseñador UI/UX"
         },
-        "img": ""
+        "img": "",
+        "gallery": [
+          ""
+        ]
       }
     ]
   },
@@ -563,7 +630,10 @@
           "en": "Developer",
           "es": "Desarrollador"
         },
-        "img": ""
+        "img": "",
+        "gallery": [
+          ""
+        ]
       },
       {
         "published": true,
@@ -588,7 +658,10 @@
           "en": "Developer",
           "es": "Desarrollador"
         },
-        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/escuderobot-img.png"
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/escuderobot-img.png",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/escuderobot-img.png"
+        ]
       },
       {
         "published": true,
@@ -613,7 +686,10 @@
           "en": "Developer",
           "es": "Desarrollador"
         },
-        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/neural-network.png"
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/neural-network.png",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/neural-network.png"
+        ]
       },
       {
         "published": false,
@@ -638,7 +714,10 @@
           "en": "Developer",
           "es": "Desarrollador"
         },
-        "img": ""
+        "img": "",
+        "gallery": [
+          ""
+        ]
       }
     ]
   }
