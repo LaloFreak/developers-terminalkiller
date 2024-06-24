@@ -12,11 +12,13 @@ const routes = require("./routes");
 const gwerhRutes = require('./routes/gwerh');
 
 app.use(bodyParser.json());
+
 app.use(session({
   secret: SESSION_SECRET,
   resave: false,
   saveUninitialized: true
 }));
+
 app.use((req, res, next)=>{
   console.log('req: ', req.originalUrl)
   res.header('Access-Control-Allow-Origin', '*');
