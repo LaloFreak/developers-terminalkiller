@@ -21,7 +21,6 @@ const loginResume = new GoogleStrategy({
       name: profile.displayName,
       email: profile.emails[0].value,
       photo: profile.photos[0].value,
-      accessToken: accessToken,
     }
     return done(null, userData)
     } catch (err) {
@@ -49,7 +48,6 @@ const loginMail = new GoogleStrategy({
       name: profile.displayName,
       email: profile.emails[0].value,
       photo: profile.photos[0].value,
-      accessToken: accessToken,
     }
     return done(null, userData)
     } catch (err) {
