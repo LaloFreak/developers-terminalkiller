@@ -1,6 +1,30 @@
 [
   {
     "published": true,
+    "href": "https://streamby.vercel.app",
+    "repository": {
+      "frontend": "https://github.com/GwerhDev/StreamBy-Client",
+      "backend": "https://github.com/GwerhDev/StreamBy-API",
+      "code": ""
+    },
+    "name": "SHADOWGARDIANS",
+    "description": {
+      "en": "Storage product for web developers. Includes library for connection with user credentials",
+      "es": "Producto de almacenamiento para desarrolladores web. Incluye biblioteca para conexión con credenciales de usuario"
+    },
+    "technologies": {
+      "en": "NextJs, NodeJs, ExpressJs",
+      "es": "NextJs, NodeJs, ExpressJs",
+      "main": "NextJs"
+    },
+    "role": {
+      "en": "FullStack Developer, UI/UX Designer",
+      "es": "Desarrollador FullStack, Diseñador UI/UX"
+    },
+    "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/streamby-img.jpg"
+  },
+  {
+    "published": true,
     "href": "https://shadowgardians.netlify.app",
     "repository": {
       "frontend": "https://github.com/GwerhDev/Shadowgardians-Client",
