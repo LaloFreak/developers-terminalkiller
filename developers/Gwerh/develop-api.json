@@ -321,7 +321,7 @@
         "description": {
           "en": "Testing and training for my first AI Application. Includes Celcius to Fahrenheit Converter, Number Recognizer, Dog and Cat Recognizer using the device's camera and more components in development",
           "es": "Pruebas y entrenamiento para mi primera Aplicación IA. Incluye Convertidor de grados Celcius a Fahrenheit, Reconocedor de números, Reconocedor de Perro y Gato mediante la cámara del dispositivo y más componentes en desarrollo"
-            },
+        },
         "technologies": {
           "en": "ReactJs, NodeJs, Python, TensorFlowJs",
           "es": "ReactJs, NodeJs, Python, TensorFlowJs",
@@ -333,7 +333,10 @@
         },
         "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/ia-testing-img.png",
         "gallery": [
-          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/ia-testing-img.png"
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/ia-testing-img.png",
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/ai-testing-img-1.jpg",
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/ai-testing-img-2.jpg",
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/ai-testing-img-3.jpg"
         ]
       },
       {

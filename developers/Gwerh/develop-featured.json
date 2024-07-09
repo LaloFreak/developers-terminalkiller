@@ -85,7 +85,10 @@
     },
     "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/ia-testing-img.png",
     "gallery": [
-      "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/ia-testing-img.png"
+      "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/ia-testing-img.png",
+      "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/ai-testing-img-1.jpg",
+      "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/ai-testing-img-2.jpg",
+      "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/ai-testing-img-3.jpg"
     ]
   },
   {
