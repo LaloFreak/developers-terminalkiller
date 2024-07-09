@@ -68,8 +68,8 @@
         },
         "name": "SHADOWGARDIANS",
         "description": {
-          "en": "Companion app for 'Diablo Immortal' e-sport clan",
-          "es": "Aplicación complementaria para clan e-sport 'Diablo Immortal'"
+          "en": "Companion app for 'Diablo Immortal' e-sport clan. Includes login with battlenet API, list of tasks to do for clan members and a help chatbot with a 'Cohere' artificial intelligence model",
+          "es": "Aplicación complementaria para clan e-sport 'Diablo Immortal'. Incluye inicio de sesión con API de Battlenet, lista de tareas a realizar para los miembros del clan y un chatbot de ayuda con un modelo de inteligencia artificial 'Cohere'."
         },
         "technologies": {
           "en": "VueJs, NodeJs, ExpressJs",
@@ -98,8 +98,8 @@
         },
         "name": "LA RUINA TV",
         "description": {
-          "en": "Multimedia Platform",
-          "es": "Plataforma Multimedia"
+          "en": "Multimedia platform for the dissemination of productions made by 'La Ruina Records' sound recording and post-production studio. Includes an internal login system and through Google and La Ruina Hub, user panel and administration panel",
+          "es": "Plataforma multimedia de difusión de producciones hechas por Estudio de grabación y post-producción de sonido 'La Ruina Records'. Incluye un sistema de inicio de sesión interno y mediante Google y La Ruina Hub, panel de usuarios y panel de administración"
         },
         "technologies": {
           "en": "ReactJs, NodeJs, ExpressJs",
@@ -319,9 +319,9 @@
         },
         "name": "ARTIFICIAL INTELLIGENCE APP - TESTING",
         "description": {
-          "en": "Tests and training for my first AI Application",
-          "es": "Pruebas y entrenamiento para mi primera Aplicación IA"
-        },
+          "en": "Testing and training for my first AI Application. Includes Celcius to Fahrenheit Converter, Number Recognizer, Dog and Cat Recognizer using the device's camera and more components in development",
+          "es": "Pruebas y entrenamiento para mi primera Aplicación IA. Incluye Convertidor de grados Celcius a Fahrenheit, Reconocedor de números, Reconocedor de Perro y Gato mediante la cámara del dispositivo y más componentes en desarrollo"
+            },
         "technologies": {
           "en": "ReactJs, NodeJs, Python, TensorFlowJs",
           "es": "ReactJs, NodeJs, Python, TensorFlowJs",
