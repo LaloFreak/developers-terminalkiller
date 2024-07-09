@@ -52,7 +52,10 @@
         },
         "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/terralegal.jpg",
         "gallery": [
-          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/terralegal.jpg"
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/terralegal.jpg",
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/terralegal-img-0.jpg",
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/terralegal-img-1.jpg",
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/terralegal-img-2.jpg"
         ]
       },
       {
@@ -79,7 +82,10 @@
         },
         "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/shadowgardians-img.png",
         "gallery": [
-          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/shadowgardians-img.png"
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/shadowgardians-img.png",
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/shadowgardians-img-1.jpg",
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/shadowgardians-img-2.jpg",
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/shadowgardians-img-3.jpg"
         ]
       },
       {
@@ -106,7 +112,12 @@
         },
         "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/laruinatv-img.png",
         "gallery": [
-          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/laruinatv-img.png"
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/laruinatv-img.png",
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/laruinatv-img-1.jpg",
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/laruinatv-img-2.jpg",
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/laruinatv-img-3.jpg",
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/laruinatv-img-4.jpg",
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/laruinatv-img-5.jpg"
         ]
       },
       {
