@@ -130,8 +130,8 @@
         },
         "name": "AMPLIFICADORES MATAYAS",
         "description": {
-          "en": "Pseudo e-commerce for Amplificadores Matayas company",
-          "es": "Pseudo e-commerce para empresa Amplificadores Matayas"
+          "en": "Pseudo e-commerce for Amplificadores Matayas company. Includes an internal login system and through Google, user panel and administration panel",
+          "es": "Pseudo e-commerce para empresa Amplificadores Matayas. Incluye un sistema de inicio de sesión interno y mediante Google, panel de usuarios y panel de administración"
         },
         "technologies": {
           "en": "ReactJs, NodeJs, ExpressJs",
@@ -144,7 +144,12 @@
         },
         "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/amplificadoresmatayas-img.png",
         "gallery": [
-          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/amplificadoresmatayas-img.png"
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/amplificadoresmatayas-img.png",
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/amplificadoresmatayas-img-1.jpg",
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/amplificadoresmatayas-img-2.jpg",
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/amplificadoresmatayas-img-3.jpg",
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/amplificadoresmatayas-img-4.jpg",
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/amplificadoresmatayas-img-5.jpg"
         ]
       },
       {
