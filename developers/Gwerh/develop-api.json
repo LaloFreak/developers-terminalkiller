@@ -3,33 +3,7 @@
     "web": [
       {
         "published": true,
-        "href": "https://streamby.vercel.app",
-        "repository": {
-          "frontend": "https://github.com/GwerhDev/StreamBy-Client",
-          "backend": "https://github.com/GwerhDev/StreamBy-API",
-          "code": ""
-        },
-        "name": "STREAMBY",
-        "description": {
-          "en": "Storage product for web developers. Includes library for connection with user credentials",
-          "es": "Producto de almacenamiento para desarrolladores web. Incluye biblioteca para conexión con credenciales de usuario"
-        },
-        "technologies": {
-          "en": "NextJs, NodeJs, ExpressJs",
-          "es": "NextJs, NodeJs, ExpressJs",
-          "main": "Next"
-        },
-        "role": {
-          "en": "FullStack Developer, UI/UX Designer",
-          "es": "Desarrollador FullStack, Diseñador UI/UX"
-        },
-        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/streamby-img.jpg",
-        "gallery": [
-          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/streamby-img.jpg"
-        ]
-      },
-      {
-        "published": true,
+        "featured": false,
         "href": "https://terralegal.cl",
         "repository": {
           "frontend": "https://github.com/GwerhDev/TerraLegal-Client",
@@ -60,6 +34,7 @@
       },
       {
         "published": true,
+        "featured": true,
         "href": "https://shadowgardians.netlify.app",
         "repository": {
           "frontend": "https://github.com/GwerhDev/Shadowgardians-Client",
@@ -90,6 +65,7 @@
       },
       {
         "published": true,
+        "featured": true,
         "href": "https://tv.laruina.cl",
         "repository": {
           "frontend": "https://github.com/GwerhDev/LaRuinaTV-Client",
@@ -122,6 +98,7 @@
       },
       {
         "published": true,
+        "featured": false,
         "href": "https://amplificadoresmatayas.com",
         "repository": {
           "frontend": "https://github.com/GwerhDev/Matayas-Client",
@@ -154,6 +131,7 @@
       },
       {
         "published": false,
+        "featured": false,
         "href": "https://gustavoeduca.netlify.app/",
         "repository": {
           "frontend": "https://github.com/GwerhDev/GustavoEduca-Client",
@@ -181,6 +159,7 @@
       },
       {
         "published": true,
+        "featured": false,
         "href": "https://play.laruina.cl",
         "repository": {
           "frontend": "https://github.com/GwerhDev/LaRuinaPlay-Client",
@@ -208,6 +187,7 @@
       },
       {
         "published": true,
+        "featured": false,
         "href": "https://hub.laruina.cl/",
         "repository": {
           "frontend": "https://github.com/GwerhDev/LaRuinaHub-Client",
@@ -235,6 +215,35 @@
       },
       {
         "published": true,
+        "featured": true,
+        "href": "https://streamby.vercel.app",
+        "repository": {
+          "frontend": "https://github.com/GwerhDev/StreamBy-Client",
+          "backend": "https://github.com/GwerhDev/StreamBy-API",
+          "code": ""
+        },
+        "name": "STREAMBY",
+        "description": {
+          "en": "Storage product for web developers. Includes library for connection with user credentials",
+          "es": "Producto de almacenamiento para desarrolladores web. Incluye biblioteca para conexión con credenciales de usuario"
+        },
+        "technologies": {
+          "en": "NextJs, NodeJs, ExpressJs",
+          "es": "NextJs, NodeJs, ExpressJs",
+          "main": "Next"
+        },
+        "role": {
+          "en": "FullStack Developer, UI/UX Designer",
+          "es": "Desarrollador FullStack, Diseñador UI/UX"
+        },
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/streamby-img.jpg",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/streamby-img.jpg"
+        ]
+      },
+      {
+        "published": true,
+        "featured": false,
         "href": "https://getexpert.netlify.app/",
         "repository": {
           "frontend": "https://github.com/GwerhDev/GetExpert-Client",
@@ -262,6 +271,7 @@
       },
       {
         "published": false,
+        "featured": false,
         "href": "https://gwerhdev-vue-app.netlify.app/",
         "repository": {
           "frontend": "https://github.com/GwerhDev/VueApp-Client",
@@ -289,6 +299,7 @@
       },
       {
         "published": true,
+        "featured": false,
         "href": "https://gwerhdev.github.io/Three-Template/",
         "repository": {
           "frontend": "https://github.com/GwerhDev/Three-Template",
@@ -316,6 +327,7 @@
       },
       {
         "published": true,
+        "featured": true,
         "href": "https://terminalkiller.netlify.app/ai-testing",
         "repository": {
           "frontend": "https://github.com/GwerhDev/ArtificialIntelligence-Client",
@@ -346,6 +358,7 @@
       },
       {
         "published": false,
+        "featured": false,
         "href": "https://lu-roco-tattoo-studio.vercel.app/",
         "repository": {
           "frontend": "https://github.com/GwerhDev/LuRocoTattooStudio-Client",
@@ -373,6 +386,7 @@
       },
       {
         "published": true,
+        "featured": false,
         "href": "http://worldofgwerh.netlify.app/",
         "repository": {
           "frontend": "https://github.com/GwerhDev/WorldOfGwerh-Client",
@@ -400,6 +414,7 @@
       },
       {
         "published": false,
+        "featured": false,
         "href": "http://chathdp.netlify.app/",
         "repository": {
           "frontend": "https://github.com/GwerhDev/ChatHDP",
@@ -427,6 +442,7 @@
       },
       {
         "published": false,
+        "featured": false,
         "href": "https://merch.laruina.cl",
         "repository": {
           "frontend": "https://github.com/GwerhDev/LaRuinaMerch-Client",
@@ -454,6 +470,7 @@
       },
       {
         "published": false,
+        "featured": false,
         "href": "https://records.laruina.cl",
         "repository": {
           "frontend": "https://github.com/GwerhDev/laruina-Client",
@@ -481,6 +498,7 @@
       },
       {
         "published": true,
+        "featured": false,
         "href": "http://projects-terminalkiller.netlify.app/",
         "repository": {
           "frontend": "https://github.com/GwerhDev/Projects-TerminalKiller",
@@ -512,6 +530,7 @@
     "desktop": [
       {
         "published": true,
+        "featured": false,
         "href": "https://tv.laruina.cl/#/download/desktop",
         "repository": {
           "frontend": "",
@@ -539,6 +558,7 @@
       },
       {
         "published": true,
+        "featured": false,
         "href": "http://worldofgwerh.netlify.app/#/adventures/gwerh-the-bard/download/desktop",
         "repository": {
           "frontend": "",
@@ -570,6 +590,7 @@
     "mobile": [
       {
         "published": true,
+        "featured": false,
         "href": "https://terminalkiller.netlify.app/#/pawesomecare/download/mobile",
         "repository": {
           "frontend": "https://github.com/TerminalKiller-Project/client-petapp",
@@ -597,6 +618,7 @@
       },
       {
         "published": false,
+        "featured": false,
         "href": "https://tv.laruina.cl/#/download/mobile",
         "repository": {
           "frontend": "",
@@ -624,6 +646,7 @@
       },
       {
         "published": false,
+        "featured": false,
         "href": "http://worldofgwerh.netlify.app/#/adventures/gwerh-the-bard/download/mobile",
         "repository": {
           "frontend": "",
@@ -655,6 +678,7 @@
     "software": [
       {
         "published": true,
+        "featured": false,
         "download": "https://www.mediafire.com/file/fnulok211dlyuep/mkpre-installer.exe/file",
         "href": "",
         "repository": {
@@ -683,6 +707,7 @@
       },
       {
         "published": true,
+        "featured": false,
         "download": null,
         "href": "https://github.com/GwerhDev/ArcanistaWoG-Bot",
         "repository": {
@@ -711,6 +736,7 @@
       },
       {
         "published": true,
+        "featured": false,
         "download": null,
         "href": "https://github.com/GwerhDev/Traffic-Neural-Network",
         "repository": {
@@ -739,6 +765,7 @@
       },
       {
         "published": false,
+        "featured": false,
         "download": null,
         "href": "https://github.com/GwerhDev/ArmaggeDroneSoftware",
         "repository": {
