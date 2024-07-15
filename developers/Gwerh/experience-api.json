@@ -1,0 +1,34 @@
+{
+  "develop": [
+    {
+      "position": {
+        "en": "Full Stack Developer",
+        "es": "Desarrollador Full Stack"
+      },
+      "company": "PerroNegro SpA",
+      "started": 2020,
+      "finished": 2022,
+      "description": {
+        "en": "Construction and maintenance of the website for Espacio PerroNegro (static) and Diseño PerroNegro (e-commerce).",
+        "es": "Construcción y mantenimiento de la página web de Espacio PerroNegro (estática) y Diseño PerroNegro (e-commerce)."
+      },
+      "more": ""
+    },
+    {
+      "position": {
+        "en": "Front End Developer",
+        "es": "Desarrollador Front End"
+      },
+      "company": "Cooperativa de Arte y Producción GUASASAPO",
+      "started": 2018,
+      "finished": 2021,
+      "description": {
+        "en": "Member of the GUASASAPO Art and Production Cooperative, developing multiple audiovisual projects and web dissemination platform.",
+        "es": "Socio de la Cooperativa de Arte y Producción GUASASAPO, desarrollando múltiples proyectos audiovisuales y plataforma de difusión web."
+      },
+      "more": "https://guasasapo.cl/guasasapotv"
+    }
+  ],
+  "design": null,
+  "sound": null
+}
