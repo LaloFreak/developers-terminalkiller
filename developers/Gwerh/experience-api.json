@@ -5,6 +5,20 @@
         "en": "Full Stack Developer",
         "es": "Desarrollador Full Stack"
       },
+      "company": "La Ruina SpA",
+      "started": 2022,
+      "finished": null,
+      "description": {
+        "en": "Development and maintenance for 'La Ruina Records' sound recording and post-production studio apps environment.",
+        "es": "Desarrollo y mantenimiento del entorno de aplicaciones para el estudio de grabación y post-producción 'La Ruina Records'."
+      },
+      "more": "https://laruina.cl"
+    },
+    {
+      "position": {
+        "en": "Front End Developer",
+        "es": "Desarrollador Front End"
+      },
       "company": "PerroNegro SpA",
       "started": 2020,
       "finished": 2022,
