@@ -7,10 +7,10 @@
       },
       "company": "La Ruina SpA",
       "started": 2022,
-      "finished": null,
+      "finished": 2024,
       "description": {
-        "en": "Development and maintenance for 'La Ruina Records' sound recording and post-production studio apps environment.",
-        "es": "Desarrollo y mantenimiento del entorno de aplicaciones para el estudio de grabación y post-producción 'La Ruina Records'."
+        "en": "Development and maintenance for La Ruina Records sound recording and post-production studio apps environment.",
+        "es": "Desarrollo y mantenimiento del entorno de aplicaciones para el estudio de grabación y post-producción La Ruina Records."
       },
       "more": "https://laruina.cl"
     },
@@ -38,7 +38,7 @@
       "finished": 2021,
       "description": {
         "en": "Member of the GUASASAPO Art and Production Cooperative, developing multiple audiovisual projects and web dissemination platform.",
-        "es": "Socio de la Cooperativa de Arte y Producción GUASASAPO, desarrollando múltiples proyectos audiovisuales y plataforma de difusión web."
+        "es": "Socio de la Cooperativa de Arte y Producción GUASASAPO, desarrollando múltiples proyectos audiovisuales y plataforma de difusión web 'GuasasapoTV'."
       },
       "more": "https://guasasapo.cl/guasasapotv"
     }
