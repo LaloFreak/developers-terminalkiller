@@ -1,0 +1,48 @@
+{
+  "develop": [
+    {
+      "position": {
+        "en": "Full Stack Developer",
+        "es": "Desarrollador Full Stack"
+      },
+      "company": "La Ruina SpA",
+      "started": 2022,
+      "finished": 2024,
+      "description": {
+        "en": "Development and maintenance for La Ruina Records sound recording and post-production studio apps environment.",
+        "es": "Desarrollo y mantenimiento del entorno de aplicaciones para el estudio de grabación y post-producción La Ruina Records."
+      },
+      "more": "https://laruina.cl"
+    },
+    {
+      "position": {
+        "en": "Front End Developer",
+        "es": "Desarrollador Front End"
+      },
+      "company": "PerroNegro SpA",
+      "started": 2020,
+      "finished": 2022,
+      "description": {
+        "en": "Construction and maintenance of the website for Espacio PerroNegro (static) and Diseño PerroNegro (e-commerce).",
+        "es": "Construcción y mantenimiento de la página web de Espacio PerroNegro (estática) y Diseño PerroNegro (e-commerce)."
+      },
+      "more": ""
+    },
+    {
+      "position": {
+        "en": "Front End Developer",
+        "es": "Desarrollador Front End"
+      },
+      "company": "Cooperativa de Arte y Producción GUASASAPO",
+      "started": 2018,
+      "finished": 2021,
+      "description": {
+        "en": "Member of the GUASASAPO Art and Production Cooperative, developing multiple audiovisual projects and web dissemination platform.",
+        "es": "Socio de la Cooperativa de Arte y Producción GUASASAPO, desarrollando múltiples proyectos audiovisuales y plataforma de difusión web 'GuasasapoTV'."
+      },
+      "more": "https://guasasapo.cl/guasasapotv"
+    }
+  ],
+  "design": null,
+  "sound": null
+}

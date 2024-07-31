@@ -1,0 +1,797 @@
+[
+  {
+    "web": [
+      {
+        "published": true,
+        "featured": false,
+        "href": "https://terralegal.cl",
+        "repository": {
+          "frontend": "https://github.com/GwerhDev/TerraLegal-Client",
+          "backend": "https://github.com/GwerhDev/TerraLegal-API",
+          "code": ""
+        },
+        "name": "TERRALEGAL",
+        "description": {
+          "en": "Web application for TerraLegal professional company. It has an administrator account with access to an administration dashboard to create content for land for sale.",
+          "es": "Aplicación web para para empresa de profesionales TerraLegal. Cuenta con cuenta de administrador con acceso a panel de administración para crear contenido de terrenos en venta."
+        },
+        "technologies": {
+          "en": "ReactJs, NodeJs, ExpressJs",
+          "es": "ReactJs, NodeJs, ExpressJs",
+          "main": "React"
+        },
+        "role": {
+          "en": "FullStack Developer, UI/UX Designer",
+          "es": "Desarrollador FullStack, Diseñador UI/UX"
+        },
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/terralegal.jpg",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/terralegal.jpg",
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/terralegal-img-0.jpg",
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/terralegal-img-1.jpg",
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/terralegal-img-2.jpg"
+        ]
+      },
+      {
+        "published": true,
+        "featured": true,
+        "href": "https://shadowgardians.netlify.app",
+        "repository": {
+          "frontend": "https://github.com/GwerhDev/Shadowgardians-Client",
+          "backend": "https://github.com/GwerhDev/Shadowgardians-API",
+          "code": ""
+        },
+        "name": "SHADOWGARDIANS",
+        "description": {
+          "en": "Companion app for 'Diablo Immortal' e-sport clan. Includes login with battlenet API, list of tasks to do for clan members and a help chatbot with a 'Cohere' artificial intelligence model",
+          "es": "Aplicación complementaria para clan e-sport 'Diablo Immortal'. Incluye inicio de sesión con API de Battlenet, lista de tareas a realizar para los miembros del clan y un chatbot de ayuda con un modelo de inteligencia artificial 'Cohere'."
+        },
+        "technologies": {
+          "en": "VueJs, NodeJs, ExpressJs",
+          "es": "VueJs, NodeJs, ExpressJs",
+          "main": "Vue"
+        },
+        "role": {
+          "en": "FullStack Developer, UI/UX Designer",
+          "es": "Desarrollador FullStack, Diseñador UI/UX"
+        },
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/shadowgardians-img.png",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/shadowgardians-img.png",
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/shadowgardians-img-1.jpg",
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/shadowgardians-img-2.jpg",
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/shadowgardians-img-3.jpg"
+        ]
+      },
+      {
+        "published": true,
+        "featured": true,
+        "href": "https://tv.laruina.cl",
+        "repository": {
+          "frontend": "https://github.com/GwerhDev/LaRuinaTV-Client",
+          "backend": "https://github.com/GwerhDev/LaRuinaTV-API",
+          "code": ""
+        },
+        "name": "LA RUINA TV",
+        "description": {
+          "en": "Multimedia platform for the dissemination of productions made by 'La Ruina Records' sound recording and post-production studio. Includes an internal login system and through Google and La Ruina Hub, user panel and administration panel",
+          "es": "Plataforma multimedia de difusión de producciones hechas por Estudio de grabación y post-producción de sonido 'La Ruina Records'. Incluye un sistema de inicio de sesión interno y mediante Google y La Ruina Hub, panel de usuarios y panel de administración"
+        },
+        "technologies": {
+          "en": "ReactJs, NodeJs, ExpressJs",
+          "es": "ReactJs, NodeJs, ExpressJs",
+          "main": "React"
+        },
+        "role": {
+          "en": "FullStack Developer, UI/UX Designer",
+          "es": "Desarrollador FullStack, Diseñador UI/UX"
+        },
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/laruinatv-img.png",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/laruinatv-img.png",
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/laruinatv-img-1.jpg",
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/laruinatv-img-2.jpg",
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/laruinatv-img-3.jpg",
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/laruinatv-img-4.jpg",
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/laruinatv-img-5.jpg"
+        ]
+      },
+      {
+        "published": true,
+        "featured": false,
+        "href": "https://amplificadoresmatayas.com",
+        "repository": {
+          "frontend": "https://github.com/GwerhDev/Matayas-Client",
+          "backend": "https://github.com/GwerhDev/Matayas-API",
+          "code": ""
+        },
+        "name": "AMPLIFICADORES MATAYAS",
+        "description": {
+          "en": "Pseudo e-commerce for Amplificadores Matayas company. Includes an internal login system and through Google, user panel and administration panel",
+          "es": "Pseudo e-commerce para empresa Amplificadores Matayas. Incluye un sistema de inicio de sesión interno y mediante Google, panel de usuarios y panel de administración"
+        },
+        "technologies": {
+          "en": "ReactJs, NodeJs, ExpressJs",
+          "es": "ReactJs, NodeJs, ExpressJs",
+          "main": "React"
+        },
+        "role": {
+          "en": "FullStack Developer, UI/UX Designer",
+          "es": "Desarrollador FullStack, Diseñador UI/UX"
+        },
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/amplificadoresmatayas-img.png",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/amplificadoresmatayas-img.png",
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/amplificadoresmatayas-img-1.jpg",
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/amplificadoresmatayas-img-2.jpg",
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/amplificadoresmatayas-img-3.jpg",
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/amplificadoresmatayas-img-4.jpg",
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/amplificadoresmatayas-img-5.jpg"
+        ]
+      },
+      {
+        "published": false,
+        "featured": false,
+        "href": "https://gustavoeduca.netlify.app/",
+        "repository": {
+          "frontend": "https://github.com/GwerhDev/GustavoEduca-Client",
+          "backend": "https://github.com/GwerhDev/GustavoEduca-API",
+          "code": ""
+        },
+        "name": "GUSTAVO EDUCA",
+        "description": {
+          "en": "Educational Platform for Magister Gustavo Fernández courses",
+          "es": "Plataforma Educativa para cursos de Magister Gustavo Fernández"
+        },
+        "technologies": {
+          "en": "ReactJs, NodeJs, ExpressJs",
+          "es": "ReactJs, NodeJs, ExpressJs",
+          "main": "React"
+        },
+        "role": {
+          "en": "FullStack Developer, UI/UX Designer",
+          "es": "Desarrollador FullStack, Diseñador UI/UX"
+        },
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/GustavoEduca-img.png",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/GustavoEduca-img.png"
+        ]
+      },
+      {
+        "published": true,
+        "featured": false,
+        "href": "https://play.laruina.cl",
+        "repository": {
+          "frontend": "https://github.com/GwerhDev/LaRuinaPlay-Client",
+          "backend": "",
+          "code": ""
+        },
+        "name": "LA RUINA PLAY",
+        "description": {
+          "en": "Multimedia Platform",
+          "es": "Plataforma Multimedia"
+        },
+        "technologies": {
+          "en": "ReactJs, NodeJs, ExpressJs",
+          "es": "ReactJs, NodeJs, ExpressJs",
+          "main": "React"
+        },
+        "role": {
+          "en": "FullStack Developer, UI/UX Designer",
+          "es": "Desarrollador FullStack, Diseñador UI/UX"
+        },
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/laruinaplay-img.jpg",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/laruinaplay-img.jpg"
+        ]
+      },
+      {
+        "published": true,
+        "featured": false,
+        "href": "https://hub.laruina.cl/",
+        "repository": {
+          "frontend": "https://github.com/GwerhDev/LaRuinaHub-Client",
+          "backend": "https://github.com/GwerhDev/LaRuinaHub-API",
+          "code": ""
+        },
+        "name": "LA RUINA HUB",
+        "description": {
+          "en": "Vue hub for La Ruina Records applications connected by an inner OAuth system",
+          "es": "Hub Vue para aplicaciones de La Ruina Records conectadas por un sistema de OAuth interno"
+        },
+        "technologies": {
+          "en": "VueJs, ExpressJs",
+          "es": "VueJs, ExpressJs",
+          "main": "Vue"
+        },
+        "role": {
+          "en": "FullStack Developer, UI/UX Designer",
+          "es": "Desarrollador FullStack, Diseñador UI/UX"
+        },
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/latuinahub-img.png",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/latuinahub-img.png"
+        ]
+      },
+      {
+        "published": true,
+        "featured": true,
+        "href": "https://streamby.vercel.app",
+        "repository": {
+          "frontend": "https://github.com/GwerhDev/StreamBy-Client",
+          "backend": "https://github.com/GwerhDev/StreamBy-API",
+          "code": ""
+        },
+        "name": "STREAMBY",
+        "description": {
+          "en": "Storage product for web developers. Includes library for connection with user credentials",
+          "es": "Producto de almacenamiento para desarrolladores web. Incluye biblioteca para conexión con credenciales de usuario"
+        },
+        "technologies": {
+          "en": "NextJs, NodeJs, ExpressJs",
+          "es": "NextJs, NodeJs, ExpressJs",
+          "main": "Next"
+        },
+        "role": {
+          "en": "FullStack Developer, UI/UX Designer",
+          "es": "Desarrollador FullStack, Diseñador UI/UX"
+        },
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/streamby-img.jpg",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/streamby-img.jpg"
+        ]
+      },
+      {
+        "published": true,
+        "featured": false,
+        "href": "https://getexpert.netlify.app/",
+        "repository": {
+          "frontend": "https://github.com/GwerhDev/GetExpert-Client",
+          "backend": "https://github.com/GwerhDev/GetExpert-API",
+          "code": ""
+        },
+        "name": "GET EXPERT",
+        "description": {
+          "en": "Angular application for job oportunities",
+          "es": "Aplicación Angular para oportunidades de trabajo"
+        },
+        "technologies": {
+          "en": "Angular, ExpressJs",
+          "es": "Angular, ExpressJs",
+          "main": "Angular"
+        },
+        "role": {
+          "en": "FullStack Developer",
+          "es": "Desarrollador FullStack"
+        },
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/getexpert-img.png",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/getexpert-img.png"
+        ]
+      },
+      {
+        "published": false,
+        "featured": false,
+        "href": "https://gwerhdev-vue-app.netlify.app/",
+        "repository": {
+          "frontend": "https://github.com/GwerhDev/VueApp-Client",
+          "backend": "",
+          "code": ""
+        },
+        "name": "VUE APP - PRUEBA TÉCNICA FRONT-END",
+        "description": {
+          "en": "Technical test for Front-End job position",
+          "es": "Prueba técnica para puesto de trabajo Front-End"
+        },
+        "technologies": {
+          "en": "VueJs, Pinia, Axios, Vite, Vitest, TypeScript",
+          "es": "VueJs, Pinia, Axios, Vite, Vitest, TypeScript",
+          "main": "Vue"
+        },
+        "role": {
+          "en": "Front-End Developer, UI/UX Designer",
+          "es": "Desarrollador Front-End, Diseñador UI/UX"
+        },
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/vue-app-img.png",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/vue-app-img.png"
+        ]
+      },
+      {
+        "published": true,
+        "featured": false,
+        "href": "https://gwerhdev.github.io/Three-Template/",
+        "repository": {
+          "frontend": "https://github.com/GwerhDev/Three-Template",
+          "backend": "",
+          "code": ""
+        },
+        "name": "THREEJS 3D APP - TESTING CONTROLLERS",
+        "description": {
+          "en": "Test for controllers of my first 3D Application",
+          "es": "Prueba para controladores de mi primera Aplicación 3D"
+        },
+        "technologies": {
+          "en": "ThreeJs",
+          "es": "ThreeJs",
+          "main": "Three"
+        },
+        "role": {
+          "en": "UI/UX Designer",
+          "es": "Diseñador UI/UX"
+        },
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/threejs-img.png",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/threejs-img.png"
+        ]
+      },
+      {
+        "published": true,
+        "featured": true,
+        "href": "https://terminalkiller.netlify.app/ai-testing",
+        "repository": {
+          "frontend": "https://github.com/GwerhDev/ArtificialIntelligence-Client",
+          "backend": "https://github.com/GwerhDev/ArtificialIntelligence-API",
+          "code": ""
+        },
+        "name": "ARTIFICIAL INTELLIGENCE APP - TESTING",
+        "description": {
+          "en": "Testing and training for my first AI Application. Includes Celcius to Fahrenheit Converter, Number Recognizer, Dog and Cat Recognizer using the device's camera and more components in development",
+          "es": "Pruebas y entrenamiento para mi primera Aplicación IA. Incluye Convertidor de grados Celcius a Fahrenheit, Reconocedor de números, Reconocedor de Perro y Gato mediante la cámara del dispositivo y más componentes en desarrollo"
+        },
+        "technologies": {
+          "en": "ReactJs, NodeJs, Python, TensorFlowJs",
+          "es": "ReactJs, NodeJs, Python, TensorFlowJs",
+          "main": "React"
+        },
+        "role": {
+          "en": "IA Training, Machine Learning, FullStack Developer, UI/UX Designer",
+          "es": "Entrenamiento IA, Machine Learning, Desarrollador FullStack, Diseñador UI/UX"
+        },
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/ia-testing-img.png",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/ia-testing-img.png",
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/ai-testing-img-1.jpg",
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/ai-testing-img-2.jpg",
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/ai-testing-img-3.jpg"
+        ]
+      },
+      {
+        "published": false,
+        "featured": false,
+        "href": "https://lu-roco-tattoo-studio.vercel.app/",
+        "repository": {
+          "frontend": "https://github.com/GwerhDev/LuRocoTattooStudio-Client",
+          "backend": "https://github.com/GwerhDev/LuRocoTattooStudio-API",
+          "code": ""
+        },
+        "name": "LUROCO TATOO STUDIO",
+        "description": {
+          "en": "Tatoo Studio's webpage",
+          "es": "Página web de Estudio de Tatuajes"
+        },
+        "technologies": {
+          "en": "ReactJs, NodeJs, ExpressJs",
+          "es": "ReactJs, NodeJs, ExpressJs",
+          "main": "React"
+        },
+        "role": {
+          "en": "FullStack Developer",
+          "es": "Desarrollador FullStack"
+        },
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/lurocotattoostudio-img.png",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/lurocotattoostudio-img.png"
+        ]
+      },
+      {
+        "published": true,
+        "featured": false,
+        "href": "http://worldofgwerh.netlify.app/",
+        "repository": {
+          "frontend": "https://github.com/GwerhDev/WorldOfGwerh-Client",
+          "backend": "https://github.com/GwerhDev/WorldOfGwerh-API",
+          "code": ""
+        },
+        "name": "WORLD OF GWERH",
+        "description": {
+          "en": "Art & Entertainment",
+          "es": "Arte y Entretenimiento"
+        },
+        "technologies": {
+          "en": "ReactJs, NodeJs",
+          "es": "ReactJs, NodeJs",
+          "main": "React"
+        },
+        "role": {
+          "en": "FullStack Developer, UI/UX Designer",
+          "es": "Desarrollador FullStack, Diseñador UI/UX"
+        },
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/wog-img.png",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/wog-img.png"
+        ]
+      },
+      {
+        "published": false,
+        "featured": false,
+        "href": "http://chathdp.netlify.app/",
+        "repository": {
+          "frontend": "https://github.com/GwerhDev/ChatHDP",
+          "backend": "",
+          "code": ""
+        },
+        "name": "CHAT-HDP",
+        "description": {
+          "en": "Meme clone for Chat-GPT",
+          "es": "Clon meme de Chat-GPT"
+        },
+        "technologies": {
+          "en": "NextJs",
+          "es": "NextJs",
+          "main": "Next"
+        },
+        "role": {
+          "en": "FullStack Developer",
+          "es": "Desarrollador FullStack"
+        },
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/chathdp-img.png",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/chathdp-img.png"
+        ]
+      },
+      {
+        "published": false,
+        "featured": false,
+        "href": "https://merch.laruina.cl",
+        "repository": {
+          "frontend": "https://github.com/GwerhDev/LaRuinaMerch-Client",
+          "backend": "",
+          "code": ""
+        },
+        "name": "LA RUINA MERCH",
+        "description": {
+          "en": "E-Commerce",
+          "es": "E-Commerce"
+        },
+        "technologies": {
+          "en": "ReactJs, NodeJs, ExpressJs",
+          "es": "ReactJs, NodeJs, ExpressJs",
+          "main": "React"
+        },
+        "role": {
+          "en": "FullStack Developer, UI/UX Designer",
+          "es": "Desarrollador FullStack, Diseñador UI/UX"
+        },
+        "img": "",
+        "gallery": [
+          ""
+        ]
+      },
+      {
+        "published": false,
+        "featured": false,
+        "href": "https://records.laruina.cl",
+        "repository": {
+          "frontend": "https://github.com/GwerhDev/laruina-Client",
+          "backend": "",
+          "code": ""
+        },
+        "name": "LA RUINA RECORDS",
+        "description": {
+          "en": "Sound Services",
+          "es": "Servicios de Sonido"
+        },
+        "technologies": {
+          "en": "ReactJs, NodeJs",
+          "es": "ReactJs, NodeJs",
+          "main": "React"
+        },
+        "role": {
+          "en": "FullStack Developer, UI/UX Designer",
+          "es": "Desarrollador FullStack, Diseñador UI/UX"
+        },
+        "img": "",
+        "gallery": [
+          ""
+        ]
+      },
+      {
+        "published": true,
+        "featured": false,
+        "href": "http://projects-terminalkiller.netlify.app/",
+        "repository": {
+          "frontend": "https://github.com/GwerhDev/Projects-TerminalKiller",
+          "backend": "",
+          "code": ""
+        },
+        "name": "TERMINALKILLER PROJECTS",
+        "description": {
+          "en": "Cooperative Projects",
+          "es": "Proyectos Cooperativos"
+        },
+        "technologies": {
+          "en": "ReactJs, NodeJs, ExpressJs",
+          "es": "ReactJs, NodeJs, ExpressJs",
+          "main": "React"
+        },
+        "role": {
+          "en": "FullStack Developer, UI/UX Designer",
+          "es": "Desarrollador FullStack, Diseñador UI/UX"
+        },
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/terminalkiller-projects-img.png",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/terminalkiller-projects-img.png"
+        ]
+      }
+    ]
+  },
+  {
+    "desktop": [
+      {
+        "published": true,
+        "featured": false,
+        "href": "https://tv.laruina.cl/#/download/desktop",
+        "repository": {
+          "frontend": "",
+          "backend": "",
+          "code": ""
+        },
+        "name": "LA RUINA TV",
+        "description": {
+          "en": "Multimedia Platform - Desktop Version",
+          "es": "Plataforma Multimedia - Versión de Escritorio"
+        },
+        "technologies": {
+          "en": "ReactJs, NodeJs, ExpressJs, ElectronJs",
+          "es": "ReactJs, NodeJs, ExpressJs, ElectronJs",
+          "main": "Electron"
+        },
+        "role": {
+          "en": "FullStack Developer, UI/UX Designer",
+          "es": "Desarrollador FullStack, Diseñador UI/UX"
+        },
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/laruinatv-desktop-img.png",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/laruinatv-desktop-img.png"
+        ]
+      },
+      {
+        "published": true,
+        "featured": false,
+        "href": "http://worldofgwerh.netlify.app/#/adventures/gwerh-the-bard/download/desktop",
+        "repository": {
+          "frontend": "",
+          "backend": "",
+          "code": ""
+        },
+        "name": "GWERH, THE BARD",
+        "description": {
+          "en": "Interactive Application - Desktop Version",
+          "es": "Aplicación Interactiva - Versión de Escritorio"
+        },
+        "technologies": {
+          "en": "ReactJs, NodeJs, ElectronJs",
+          "es": "ReactJs, NodeJs, ElectronJs",
+          "main": "Electron"
+        },
+        "role": {
+          "en": "FullStack Developer, UI/UX Designer",
+          "es": "Desarrollador FullStack, Diseñador UI/UX"
+        },
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/gtb-app-img.png",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/gtb-app-img.png"
+        ]
+      }
+    ]
+  },
+  {
+    "mobile": [
+      {
+        "published": true,
+        "featured": false,
+        "href": "https://terminalkiller.netlify.app/#/pawesomecare/download/mobile",
+        "repository": {
+          "frontend": "https://github.com/TerminalKiller-Project/client-petapp",
+          "backend": "",
+          "code": ""
+        },
+        "name": "PAWSOME CARE",
+        "description": {
+          "en": "Pet's Services",
+          "es": "Servicios para Mascotas"
+        },
+        "technologies": {
+          "en": "React Native, NodeJs",
+          "es": "React Native, NodeJs",
+          "main": "React Native"
+        },
+        "role": {
+          "en": "FullStack Developer",
+          "es": "Desarrollador FullStack"
+        },
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/pawsomecare-img.png",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/pawsomecare-img.png"
+        ]
+      },
+      {
+        "published": false,
+        "featured": false,
+        "href": "https://tv.laruina.cl/#/download/mobile",
+        "repository": {
+          "frontend": "",
+          "backend": "",
+          "code": ""
+        },
+        "name": "LA RUINA TV",
+        "description": {
+          "en": "Multimedia Platform - Mobile Version",
+          "es": "Plataforma Multimedia - Versión Móvil"
+        },
+        "technologies": {
+          "en": "React Native, NodeJs",
+          "es": "React Native, NodeJs",
+          "main": "React Native"
+        },
+        "role": {
+          "en": "FullStack Developer, UI/UX Designer",
+          "es": "Desarrollador FullStack, Diseñador UI/UX"
+        },
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/laruinatv-mobile-img.png",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/laruinatv-mobile-img.png"
+        ]
+      },
+      {
+        "published": false,
+        "featured": false,
+        "href": "http://worldofgwerh.netlify.app/#/adventures/gwerh-the-bard/download/mobile",
+        "repository": {
+          "frontend": "",
+          "backend": "",
+          "code": ""
+        },
+        "name": "GWERH, THE BARD",
+        "description": {
+          "en": "Interactive Application - Mobile Version",
+          "es": "Aplicación Interactiva - Versión Móvil"
+        },
+        "technologies": {
+          "en": "React Native, NodeJs",
+          "es": "React Native, NodeJs",
+          "main": "React Native"
+        },
+        "role": {
+          "en": "FullStack Developer, UI/UX Designer",
+          "es": "Desarrollador FullStack, Diseñador UI/UX"
+        },
+        "img": "",
+        "gallery": [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "software": [
+      {
+        "published": true,
+        "featured": false,
+        "download": "https://www.mediafire.com/file/fnulok211dlyuep/mkpre-installer.exe/file",
+        "href": "",
+        "repository": {
+          "frontend": "",
+          "backend": "",
+          "code": "https://github.com/GwerhDev/MPK-ResourcesExtractor"
+        },
+        "name": "MPK RESOURCES EXTRACTOR",
+        "description": {
+          "en": "This software extracts the .mpkinfo files and saves them in the [results] directory, which opens upon completion.",
+          "es": "Este software extrae los archivos .mpkinfo y los guarda en el diretorio [results], el cual se abre una vez finalizado."
+        },
+        "technologies": {
+          "en": "Python",
+          "es": "Python",
+          "main": "Python"
+        },
+        "role": {
+          "en": "Developer",
+          "es": "Desarrollador"
+        },
+        "img": "",
+        "gallery": [
+          ""
+        ]
+      },
+      {
+        "published": true,
+        "featured": false,
+        "download": null,
+        "href": "https://github.com/GwerhDev/ArcanistaWoG-Bot",
+        "repository": {
+          "frontend": "",
+          "backend": "",
+          "code": "https://github.com/GwerhDev/ArcanistaWoG-Bot"
+        },
+        "name": "ARCANISTA BOT",
+        "description": {
+          "en": "Bot assistant for Discord's server of World of Gwerh project",
+          "es": "Bot asistente para servidor de Discord para proyecto World of Gwerh"
+        },
+        "technologies": {
+          "en": "DiscordJs, NodeJs",
+          "es": "DiscordJs, NodeJs",
+          "main": "Node"
+        },
+        "role": {
+          "en": "Developer",
+          "es": "Desarrollador"
+        },
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/escuderobot-img.png",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/escuderobot-img.png"
+        ]
+      },
+      {
+        "published": true,
+        "featured": false,
+        "download": null,
+        "href": "https://github.com/GwerhDev/Traffic-Neural-Network",
+        "repository": {
+          "frontend": "",
+          "backend": "",
+          "code": "https://github.com/GwerhDev/Traffic-Neural-Network"
+        },
+        "name": "TRAFFIC NEURAL NETWORK",
+        "description": {
+          "en": "Neural Network Training (Artificial Intelligence)",
+          "es": "Entrenamiento de Redes Neuronales (Inteligencia Artificial)"
+        },
+        "technologies": {
+          "en": "Python, TensorFlow",
+          "es": "Python, TensorFlow",
+          "main": "TensorFlow"
+        },
+        "role": {
+          "en": "Developer",
+          "es": "Desarrollador"
+        },
+        "img": "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/neural-network.png",
+        "gallery": [
+          "https://streamby.s3.sa-east-1.amazonaws.com/GwerhDev/Portfolio/image/neural-network.png"
+        ]
+      },
+      {
+        "published": false,
+        "featured": false,
+        "download": null,
+        "href": "https://github.com/GwerhDev/ArmaggeDroneSoftware",
+        "repository": {
+          "frontend": "",
+          "backend": "",
+          "code": "https://github.com/GwerhDev/ArmaggeDroneSoftware"
+        },
+        "name": "ARMAGGEDRONE",
+        "description": {
+          "en": "Software Smart Drone (Artificial Intelligence)",
+          "es": "Software Smart Drone (Inteligencia Artificial)"
+        },
+        "technologies": {
+          "en": "Python, AI, TensorFlow",
+          "es": "Python, IA, TensorFlow",
+          "main": "TensorFlow"
+        },
+        "role": {
+          "en": "Developer",
+          "es": "Desarrollador"
+        },
+        "img": "",
+        "gallery": [
+          ""
+        ]
+      }
+    ]
+  }
+]

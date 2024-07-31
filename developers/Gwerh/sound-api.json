@@ -7,8 +7,21 @@
       "es": "Composición, Interpretación, Grabación, Mezcla y Masterización"
     },
     "role": {
-      "en": "Compositor, Interpreter, Recording Engineer, Productor",
+      "en": "Compositor, Interpreter, Recording Engineer, Producer",
       "es": "Compositor, Intérprete, Ingeniero de grabación, Productor"
+    },
+    "year": "2023"
+  },
+  {
+    "idYt": "VkSQaHcE8n8",
+    "name": "PATIO DE LOS KALLAOS - HASTA LA MUERTE",
+    "description": {
+      "en": "Rercording, Mixing and Mastering",
+      "es": "Grabación, Mezcla y Masterización"
+    },
+    "role": {
+      "en": "Recording Engineer, Producer",
+      "es": "Ingeniero de grabación, Productor"
     },
     "year": "2023"
   },
@@ -20,7 +33,7 @@
       "es": "Grabación, Mezcla y Masterización"
     },
     "role": {
-      "en": "Recording Engineer, Productor",
+      "en": "Recording Engineer, Producer",
       "es": "Ingeniero de grabación, Productor"
     },
     "year": "2022"
@@ -33,7 +46,7 @@
       "es": "Grabación en vivo, Mezcla y Masterización"
     },
     "role": {
-      "en": "Recording Engineer, Productor",
+      "en": "Recording Engineer, Producer",
       "es": "Ingeniero de grabación, Productor"
     },
     "year": "2021"
@@ -46,9 +59,22 @@
       "es": "Mezcla y Masterización"
     },
     "role": {
-      "en": "Productor",
+      "en": "Producer",
       "es": "Productor"
     },
     "year": "2019"
+  },
+  {
+    "idYt": "2jXpW9lDjQU",
+    "name": "LOS MISIONEROS - CANCIONES RELIGIOSAS PARA ADOLESCENTES",
+    "description": {
+      "en": "Composition, Interpretation, Rercording, Mixing and Mastering",
+      "es": "Composición, Interpretación, Grabación, Mezcla y Masterización"
+    },
+    "role": {
+      "en": "Compositor, Interpreter, Recording Engineer, Producer",
+      "es": "Compositor, Intérprete, Ingeniero de grabación, Productor"
+    },
+    "year": "2018"
   }
 ]

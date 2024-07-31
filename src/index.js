@@ -1,15 +1,15 @@
-const port = process.env.PORT || 8080
 const server = require('./app');
-const { sequelize } = require("./db.js");
+const { PORT } = require('./config');
+const db = require("./integrations/mongodb");
 
 async function main() {
     try {
-      await sequelize.sync({force: true});
+      await db.connect();
       console.log("succesfully connected");
-      server.listen(port, ()=> console.log(`server listening on port ${port}`))//MODO PRUEBAS
+      server.listen(PORT, ()=> console.log(`server listening on port ${PORT}`))
     } catch (error) {
+      server.listen(PORT, ()=> console.log(`server listening on port ${PORT} (db disconected)`))
       console.error("Unable to connect to database");
     }
 }
 main();
-

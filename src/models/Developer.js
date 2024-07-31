@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const userSchema = new mongoose.Schema({
+const developerSchema = new mongoose.Schema({
     alias: { type: String, required: true },
     email: { type: String, required: true },
     method: { type: String, required: false },
@@ -8,4 +8,4 @@ const userSchema = new mongoose.Schema({
     isVerified: { type: Boolean, required: false },
 });
 
-module.exports = mongoose.model('User', userSchema);
+module.exports = mongoose.model('Developer', developerSchema);
